@@ -1,0 +1,48 @@
+{
+  "doc": "docs/community/meeting-link-visibility.md",
+  "outDir": "public/images/community/meeting-link",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1150
+      }
+    },
+    {
+      "front": "/portal/space/events-meetups/event/monthly-community-call-november",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": false
+    },
+    {
+      "wait": 1800
+    },
+    {
+      "shot": {
+        "name": "1.-Meeting-Link-Hidden",
+        "clip": "viewport"
+      }
+    },
+    {
+      "front": "/portal/space/events-meetups/event/monthly-community-call-november",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 1800
+    },
+    {
+      "shot": {
+        "name": "2.-Join-Online-Button",
+        "clip": "viewport"
+      }
+    }
+  ]
+}

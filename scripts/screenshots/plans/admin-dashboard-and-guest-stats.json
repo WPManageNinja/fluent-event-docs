@@ -1,0 +1,29 @@
+{
+  "doc": "docs/dashboard/admin-dashboard-and-guest-stats.md",
+  "outDir": "public/images/dashboard/dashboard",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/"
+    },
+    {
+      "shot": {
+        "name": "1.-Dashboard-Overview",
+        "clip": "app",
+        "crop": "auto"
+      }
+    },
+    {
+      "shot": {
+        "name": "2.-Guest-Trends-Chart",
+        "clip": {
+          "element": ".fe-dashboard__chart",
+          "pad": 24
+        }
+      }
+    }
+  ]
+}

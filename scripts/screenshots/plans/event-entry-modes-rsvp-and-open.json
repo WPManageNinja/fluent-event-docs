@@ -1,0 +1,46 @@
+{
+  "doc": "docs/events/event-entry-modes-rsvp-and-open.md",
+  "outDir": "public/images/events/entry-modes",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/events/new"
+    },
+    {
+      "scrollTo": {
+        "selector": "section.fe-form__section",
+        "hasText": "Registration"
+      }
+    },
+    {
+      "shot": {
+        "name": "1.-Entry-Type-Options",
+        "clip": {
+          "element": {
+            "selector": "section.fe-form__section",
+            "hasText": "Registration"
+          },
+          "pad": 20
+        }
+      }
+    },
+    {
+      "admin": "/events/1"
+    },
+    {
+      "shot": {
+        "name": "2.-Registration-Type-On-Event",
+        "clip": {
+          "element": ".fe-event-overview",
+          "pad": 20
+        },
+        "highlights": [
+          ".fe-event-overview__badges"
+        ]
+      }
+    }
+  ]
+}

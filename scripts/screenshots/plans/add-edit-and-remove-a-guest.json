@@ -1,0 +1,51 @@
+{
+  "doc": "docs/guests/add-edit-and-remove-a-guest.md",
+  "outDir": "public/images/guests/add-edit-remove",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/events/1"
+    },
+    {
+      "click": "#fe-tab-guests"
+    },
+    {
+      "wait": 1200
+    },
+    {
+      "shot": {
+        "name": "1.-Add-Guest-Button",
+        "clip": "app",
+        "arrows": [
+          {
+            "target": {
+              "text": "Add Guest"
+            },
+            "from": "left",
+            "len": 150
+          }
+        ]
+      }
+    },
+    {
+      "click": {
+        "text": "Add Guest"
+      }
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "2.-Add-Guest-Dialog",
+        "clip": {
+          "element": ".el-dialog",
+          "pad": 32
+        }
+      }
+    }
+  ]
+}

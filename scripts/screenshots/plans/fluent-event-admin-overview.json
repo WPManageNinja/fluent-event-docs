@@ -1,0 +1,53 @@
+{
+  "doc": "docs/getting-started/fluent-event-admin-overview.md",
+  "outDir": "public/images/getting-started/admin-overview",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/"
+    },
+    {
+      "shot": {
+        "name": "1.-Admin-Top-Navigation",
+        "clip": "app",
+        "badges": [
+          {
+            "target": {
+              "selector": ".fe-navbar a",
+              "hasText": "Dashboard"
+            },
+            "n": 1,
+            "pos": "bottom"
+          },
+          {
+            "target": {
+              "selector": ".fe-navbar a",
+              "hasText": "Calendars"
+            },
+            "n": 2,
+            "pos": "bottom"
+          },
+          {
+            "target": {
+              "selector": ".fe-navbar a",
+              "hasText": "Events"
+            },
+            "n": 3,
+            "pos": "bottom"
+          },
+          {
+            "target": {
+              "selector": ".fe-navbar a",
+              "hasText": "Settings"
+            },
+            "n": 4,
+            "pos": "bottom"
+          }
+        ]
+      }
+    }
+  ]
+}

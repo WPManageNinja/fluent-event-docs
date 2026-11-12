@@ -1,0 +1,112 @@
+{
+  "doc": "docs/events/event-details-and-settings.md",
+  "outDir": "public/images/events/event-details",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/events/new"
+    },
+    {
+      "scrollTo": {
+        "selector": "section.fe-form__section",
+        "hasText": "Cover image"
+      }
+    },
+    {
+      "shot": {
+        "name": "1.-Cover-Image-Section",
+        "clip": {
+          "element": {
+            "selector": "section.fe-form__section",
+            "hasText": "Cover image"
+          },
+          "pad": 20
+        }
+      }
+    },
+    {
+      "scrollTo": {
+        "selector": "section.fe-form__section",
+        "hasText": "Visibility"
+      }
+    },
+    {
+      "shot": {
+        "name": "2.-Visibility-Options",
+        "clip": {
+          "element": {
+            "selector": "section.fe-form__section",
+            "hasText": "Visibility"
+          },
+          "pad": 20
+        }
+      }
+    },
+    {
+      "scrollTo": {
+        "selector": "section.fe-form__section",
+        "hasText": "Date and time"
+      }
+    },
+    {
+      "shot": {
+        "name": "3.-Date-And-Time",
+        "clip": {
+          "element": {
+            "selector": "section.fe-form__section",
+            "hasText": "Date and time"
+          },
+          "pad": 20
+        }
+      }
+    },
+    {
+      "scrollTo": {
+        "selector": "section.fe-form__section",
+        "hasText": "Venue type"
+      }
+    },
+    {
+      "shot": {
+        "name": "4.-In-Person-Venue",
+        "clip": {
+          "element": {
+            "selector": "section.fe-form__section",
+            "hasText": "Venue type"
+          },
+          "pad": 20
+        }
+      }
+    },
+    {
+      "click": {
+        "selector": "section.fe-form__section :is(label,button,[role=radio])",
+        "hasText": "Online"
+      }
+    },
+    {
+      "wait": 900
+    },
+    {
+      "scrollTo": {
+        "selector": "section.fe-form__section",
+        "hasText": "Venue type"
+      }
+    },
+    {
+      "shot": {
+        "name": "5.-Online-Venue",
+        "clip": {
+          "element": {
+            "selector": "section.fe-form__section",
+            "hasText": "Venue type"
+          },
+          "pad": 20
+        }
+      }
+    }
+  ]
+}

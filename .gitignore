@@ -1,0 +1,12 @@
+/.vitepress/cache
+/.vitepress/dist
+/node_modules
+.DS_Store
+.claude/*
+!.claude/skills/
+!.claude/agents/
+!.claude/plugin-memory/
+!.claude/SCREENSHOT-TODO.md
+!.claude/redesign-audit/
+/scripts/screenshots/raw
+/scripts/screenshots/demo-tables.json

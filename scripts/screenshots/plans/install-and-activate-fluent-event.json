@@ -1,0 +1,46 @@
+{
+  "doc": "docs/getting-started/install-and-activate-fluent-event.md",
+  "outDir": "public/images/getting-started/install-activate",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "front": "/wp-admin/plugins.php?s=fluent",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 800
+    },
+    {
+      "hideCss": "#wpadminbar, .notice, .update-nag"
+    },
+    {
+      "shot": {
+        "name": "1.-Plugins-Screen",
+        "clip": "viewport"
+      }
+    },
+    {
+      "admin": "/"
+    },
+    {
+      "css": "#adminmenumain,#adminmenuback,#adminmenuwrap{visibility:visible!important}"
+    },
+    {
+      "shot": {
+        "name": "2.-FluentEvent-Menu",
+        "clip": {
+          "x": 0,
+          "y": 32,
+          "width": 200,
+          "height": 460
+        }
+      }
+    }
+  ]
+}

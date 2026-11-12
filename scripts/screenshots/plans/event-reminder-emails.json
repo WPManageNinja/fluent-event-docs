@@ -1,0 +1,29 @@
+{
+  "doc": "docs/emails/event-reminder-emails.md",
+  "outDir": "public/images/emails/reminders",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/settings/email-notifications"
+    },
+    {
+      "shot": {
+        "name": "1.-Reminder-Schedule",
+        "clip": "app",
+        "crop": "auto",
+        "arrows": [
+          {
+            "target": {
+              "text": "Add reminder"
+            },
+            "from": "right",
+            "len": 120
+          }
+        ]
+      }
+    }
+  ]
+}

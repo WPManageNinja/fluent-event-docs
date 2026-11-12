@@ -1,0 +1,25 @@
+{
+  "doc": "docs/guests/guest-statuses-and-check-in.md",
+  "outDir": "public/images/guests/statuses",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/events/1"
+    },
+    {
+      "click": "#fe-tab-guests"
+    },
+    {
+      "wait": 1200
+    },
+    {
+      "shot": {
+        "name": "1.-Guest-Status-Tabs",
+        "clip": "app"
+      }
+    }
+  ]
+}

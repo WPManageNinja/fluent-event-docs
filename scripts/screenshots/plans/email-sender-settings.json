@@ -1,0 +1,25 @@
+{
+  "doc": "docs/emails/email-sender-settings.md",
+  "outDir": "public/images/emails/sender",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/settings/general"
+    },
+    {
+      "scrollTo": {
+        "text": "From name"
+      }
+    },
+    {
+      "shot": {
+        "name": "1.-Email-Sender-Fields",
+        "clip": "app",
+        "crop": "auto"
+      }
+    }
+  ]
+}

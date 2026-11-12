@@ -1,0 +1,26 @@
+{
+  "doc": "docs/calendars/delete-a-calendar.md",
+  "outDir": "public/images/calendars/delete",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/calendars/1"
+    },
+    {
+      "click": "#fe-tab-settings"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "1.-Calendar-Danger-Zone",
+        "clip": "app",
+        "crop": "auto"
+      }
+    }
+  ]
+}

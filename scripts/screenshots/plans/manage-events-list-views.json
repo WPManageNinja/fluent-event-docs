@@ -1,0 +1,89 @@
+{
+  "doc": "docs/events/manage-events-list-views.md",
+  "outDir": "public/images/events/list-views",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/events"
+    },
+    {
+      "click": "button.fe-switch__option[aria-label=\"Cards\"]"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "1.-Cards-View",
+        "clip": "app"
+      }
+    },
+    {
+      "click": "button.fe-switch__option[aria-label=\"Timeline\"]"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "2.-Timeline-View",
+        "clip": "app"
+      }
+    },
+    {
+      "click": "button.fe-switch__option[aria-label=\"Calendar\"]"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "3.-Calendar-View",
+        "clip": "app"
+      }
+    },
+    {
+      "click": {
+        "text": "Past"
+      }
+    },
+    {
+      "wait": 900
+    },
+    {
+      "click": "button.fe-switch__option[aria-label=\"Timeline\"]"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "4.-Past-Events",
+        "clip": "app"
+      }
+    },
+    {
+      "click": {
+        "text": "Upcoming"
+      }
+    },
+    {
+      "wait": 900
+    },
+    {
+      "click": ".fe-events-view__toolbar button[aria-label=\"Filter\"], .fe-events-view__toolbar .el-button:last-child"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "5.-Filter-Panel",
+        "clip": "viewport"
+      }
+    }
+  ]
+}

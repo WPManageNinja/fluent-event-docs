@@ -1,0 +1,26 @@
+{
+  "doc": "docs/community/events-in-the-community-feed.md",
+  "outDir": "public/images/community/feed",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "front": "/portal/",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 1800
+    },
+    {
+      "shot": {
+        "name": "1.-Event-Post-In-Feed",
+        "clip": "viewport"
+      }
+    }
+  ]
+}

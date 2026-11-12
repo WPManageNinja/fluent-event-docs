@@ -1,0 +1,59 @@
+{
+  "doc": "docs/getting-started/create-your-first-event.md",
+  "outDir": "public/images/getting-started/first-event",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/events"
+    },
+    {
+      "shot": {
+        "name": "1.-Add-Event-Button",
+        "clip": "app",
+        "arrows": [
+          {
+            "target": {
+              "text": "Add Event"
+            },
+            "from": "bottom",
+            "len": 110
+          }
+        ]
+      }
+    },
+    {
+      "admin": "/events/new"
+    },
+    {
+      "fill": {
+        "selector": "input[placeholder=\"e.g. Friday Q&A\"]",
+        "value": "Friday Q&A"
+      }
+    },
+    {
+      "shot": {
+        "name": "2.-New-Event-Form",
+        "clip": "app"
+      }
+    },
+    {
+      "front": "/portal/events",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 1200
+    },
+    {
+      "shot": {
+        "name": "3.-Event-In-Portal",
+        "clip": "viewport"
+      }
+    }
+  ]
+}

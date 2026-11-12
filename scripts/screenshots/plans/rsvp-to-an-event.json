@@ -1,0 +1,81 @@
+{
+  "doc": "docs/community/rsvp-to-an-event.md",
+  "outDir": "public/images/community/rsvp",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1150
+      }
+    },
+    {
+      "front": "/portal/space/events-meetups/event/monthly-community-call-november",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": false
+    },
+    {
+      "wait": 1800
+    },
+    {
+      "shot": {
+        "name": "1.-Log-In-To-RSVP",
+        "clip": "viewport"
+      }
+    },
+    {
+      "front": "/portal/space/events-meetups/event/holiday-virtual-mixer",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": false
+    },
+    {
+      "wait": 1800
+    },
+    {
+      "click": {
+        "selector": "button",
+        "hasText": "Register"
+      }
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "2.-Open-Event-Register-Form",
+        "clip": "viewport"
+      }
+    },
+    {
+      "front": "/portal/space/events-meetups/event/monthly-community-call-november",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 1800
+    },
+    {
+      "click": {
+        "text": "Interested?"
+      }
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "3.-Going-Or-Not-Going",
+        "clip": "viewport"
+      }
+    }
+  ]
+}

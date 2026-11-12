@@ -1,0 +1,29 @@
+{
+  "doc": "docs/emails/confirmation-and-cancellation-emails.md",
+  "outDir": "public/images/emails/confirm-cancel",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/settings/email-notifications"
+    },
+    {
+      "shot": {
+        "name": "1.-Registration-Email-Toggles",
+        "clip": "app",
+        "crop": "auto",
+        "arrows": [
+          {
+            "target": {
+              "text": "Confirmation email"
+            },
+            "from": "left",
+            "len": 120
+          }
+        ]
+      }
+    }
+  ]
+}

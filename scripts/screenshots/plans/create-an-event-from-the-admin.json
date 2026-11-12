@@ -1,0 +1,85 @@
+{
+  "doc": "docs/events/create-an-event-from-the-admin.md",
+  "outDir": "public/images/events/create-event-admin",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/events"
+    },
+    {
+      "shot": {
+        "name": "1.-Events-List",
+        "clip": "app",
+        "arrows": [
+          {
+            "target": {
+              "text": "Add Event"
+            },
+            "from": "bottom",
+            "len": 110
+          }
+        ]
+      }
+    },
+    {
+      "admin": "/events/new"
+    },
+    {
+      "fill": {
+        "selector": "input[placeholder=\"e.g. Friday Q&A\"]",
+        "value": "Friday Q&A"
+      }
+    },
+    {
+      "shot": {
+        "name": "2.-Create-Event-Form",
+        "clip": "app"
+      }
+    },
+    {
+      "scrollTo": {
+        "selector": "section.fe-form__section",
+        "hasText": "Basics"
+      }
+    },
+    {
+      "shot": {
+        "name": "3.-Basics-Section",
+        "clip": {
+          "element": {
+            "selector": "section.fe-form__section",
+            "hasText": "Basics"
+          },
+          "pad": 20
+        },
+        "highlights": [
+          {
+            "row": "Event name",
+            "part": "row"
+          }
+        ]
+      }
+    },
+    {
+      "scrollTo": {
+        "selector": "section.fe-form__section",
+        "hasText": "Registration"
+      }
+    },
+    {
+      "shot": {
+        "name": "4.-Registration-Section",
+        "clip": {
+          "element": {
+            "selector": "section.fe-form__section",
+            "hasText": "Registration"
+          },
+          "pad": 20
+        }
+      }
+    }
+  ]
+}

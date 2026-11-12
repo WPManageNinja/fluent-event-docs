@@ -1,0 +1,79 @@
+/**
+ * FluentEvent brand colors: teal (#12A9B5, from the logo), set up like the FluentCommunity docs
+ * (darker brand-1 in light mode, lighter in dark mode, gradient hero name).
+ * Screenshot annotation colour stays pink #FF4E6B (scripts/screenshots/lib/annotate.cjs).
+ */
+
+:root {
+  --vp-c-brand-1: #0E8E99;
+  --vp-c-brand-2: #12A9B5;
+  --vp-c-brand-3: #3FC5CF;
+  --vp-c-brand-soft: rgba(18, 169, 181, 0.14);
+
+  /* Homepage hero */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #12A9B5 30%, #38BDF8);
+  --vp-home-hero-image-background-image: linear-gradient(120deg, rgba(18, 169, 181, 0.35), rgba(56, 189, 248, 0.25));
+  --vp-home-hero-image-filter: blur(56px);
+}
+
+.dark {
+  --vp-c-brand-1: #3FD0DB;
+  --vp-c-brand-2: #12A9B5;
+  --vp-c-brand-3: #0E8E99;
+  --vp-c-brand-soft: rgba(18, 169, 181, 0.2);
+}
+
+.VPNavBarTitle .title {
+  color: var(--vp-c-text-1);
+}
+
+.VPFeature .title {
+  color: var(--vp-c-text-1);
+}
+
+.VPFeature:hover .title {
+  color: var(--vp-c-brand-1);
+}
+
+/**
+ * Responsive video embeds
+ * Sized and spaced exactly like a doc image: full content width, 16:9,
+ * 16px vertical margins (VitePress default paragraph rhythm).
+ */
+
+.vp-doc .video-embed {
+  position: relative;
+  width: 100%;
+  margin: 16px 0;
+  aspect-ratio: 16 / 9;
+  background-color: var(--vp-c-bg-alt);
+}
+
+.vp-doc .video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.home-footer {
+  max-width: 1200px;
+  margin: 1rem auto 3rem;
+  padding: 1.5rem 1.5rem 0;
+  border-top: 1px solid var(--vp-c-divider);
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-3);
+}
+
+/* Tablet nav: at 768-959px the five top links plus the search button are wider than the screen
+   (the ⋯ menu was pushed 28px off the right edge). Tighten the link padding in that range only. */
+@media (min-width: 768px) and (max-width: 959px) {
+  .VPNavBarMenu .VPNavBarMenuLink { padding: 0 8px !important; }
+  .VPNavBarSearch .VPNavBarSearchButton, .VPNavBarSearch .DocSearch-Button { padding: 0 8px; }
+  .VPNavBarTitle .title { font-size: 15px; }
+  .VPNavBarSearch { margin-left: 0; }
+}

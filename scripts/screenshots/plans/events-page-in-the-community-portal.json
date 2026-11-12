@@ -1,0 +1,72 @@
+{
+  "doc": "docs/community/events-page-in-the-community-portal.md",
+  "outDir": "public/images/community/portal-events",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "front": "/portal/events",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "click": "button.fe-switch__option[aria-label=\"Cards\"]"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "1.-Events-Cards",
+        "clip": "viewport"
+      }
+    },
+    {
+      "click": "button.fe-switch__option[aria-label=\"Timeline\"]"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "2.-Events-Timeline",
+        "clip": "viewport"
+      }
+    },
+    {
+      "click": "button.fe-switch__option[aria-label=\"Calendar\"]"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "3.-Events-Calendar",
+        "clip": "viewport"
+      }
+    },
+    {
+      "front": "/portal/space/events-meetups/home",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "shot": {
+        "name": "4.-Space-Events",
+        "clip": "viewport"
+      }
+    }
+  ]
+}

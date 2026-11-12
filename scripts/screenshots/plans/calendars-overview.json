@@ -1,0 +1,30 @@
+{
+  "doc": "docs/calendars/calendars-overview.md",
+  "outDir": "public/images/calendars/overview",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/calendars"
+    },
+    {
+      "shot": {
+        "name": "1.-Calendars-List",
+        "clip": "app",
+        "crop": "auto"
+      }
+    },
+    {
+      "admin": "/calendars/1"
+    },
+    {
+      "shot": {
+        "name": "2.-Calendar-Detail",
+        "clip": "app",
+        "crop": "auto"
+      }
+    }
+  ]
+}

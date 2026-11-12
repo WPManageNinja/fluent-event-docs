@@ -1,0 +1,20 @@
+{
+  "doc": "docs/settings/general-settings.md",
+  "outDir": "public/images/settings/general",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/settings/general"
+    },
+    {
+      "shot": {
+        "name": "1.-General-Settings",
+        "clip": "app",
+        "crop": "auto"
+      }
+    }
+  ]
+}

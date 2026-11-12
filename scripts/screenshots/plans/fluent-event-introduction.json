@@ -1,0 +1,35 @@
+{
+  "doc": "docs/getting-started/fluent-event-introduction.md",
+  "outDir": "public/images/getting-started/introduction",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/"
+    },
+    {
+      "shot": {
+        "name": "1.-Admin-Dashboard",
+        "clip": "app"
+      }
+    },
+    {
+      "front": "/portal/",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "shot": {
+        "name": "2.-Event-In-Feed",
+        "clip": "viewport"
+      }
+    }
+  ]
+}

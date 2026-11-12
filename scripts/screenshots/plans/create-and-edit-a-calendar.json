@@ -1,0 +1,48 @@
+{
+  "doc": "docs/calendars/create-and-edit-a-calendar.md",
+  "outDir": "public/images/calendars/create-edit",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/calendars"
+    },
+    {
+      "shot": {
+        "name": "1.-Create-Calendar-Button",
+        "clip": "app",
+        "arrows": [
+          {
+            "target": {
+              "text": "Create Calendar"
+            },
+            "from": "left",
+            "len": 150
+          }
+        ]
+      }
+    },
+    {
+      "admin": "/calendars/new"
+    },
+    {
+      "shot": {
+        "name": "2.-Create-Calendar-Form",
+        "clip": "app",
+        "crop": "auto"
+      }
+    },
+    {
+      "admin": "/calendars/1/edit"
+    },
+    {
+      "shot": {
+        "name": "3.-Edit-Calendar-Form",
+        "clip": "app",
+        "crop": "auto"
+      }
+    }
+  ]
+}

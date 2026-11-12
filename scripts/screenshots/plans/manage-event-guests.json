@@ -1,0 +1,34 @@
+{
+  "doc": "docs/guests/manage-event-guests.md",
+  "outDir": "public/images/guests/manage",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "admin": "/events/1"
+    },
+    {
+      "click": "#fe-tab-guests"
+    },
+    {
+      "wait": 1200
+    },
+    {
+      "shot": {
+        "name": "1.-Guests-Tab",
+        "clip": "app"
+      }
+    },
+    {
+      "shot": {
+        "name": "2.-Status-Filters",
+        "clip": {
+          "element": ".fe-guests__table",
+          "pad": 16
+        }
+      }
+    }
+  ]
+}
