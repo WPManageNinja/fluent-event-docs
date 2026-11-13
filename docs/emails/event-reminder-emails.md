@@ -27,7 +27,7 @@ The default is one reminder, **24 Hours before**. Click **Add reminder** to add 
 
 Every guest of the event except those whose status is **Not Going** or **Cancelled**. Reminders are sent only for events whose visibility is **Public**, **Unlisted** or **Private**, so a **Draft** event sends none.
 
-The subject is "Reminder:" followed by the event name and "is coming up". The email states the start date, time and timezone.
+The subject is "Reminder:" followed by the event name and "is coming up". The email states the start date, time and timezone. Click the eye icon next to **Reminder emails** to preview it. See [Email notifications overview](/email-notifications-overview).
 
 ## How Reminders Respond to Event Changes
 

@@ -15,6 +15,24 @@
         "clip": "app",
         "crop": "auto"
       }
+    },
+    {
+      "click": "button[aria-label=\"Preview the confirmation email\"]"
+    },
+    {
+      "wait": 1800
+    },
+    {
+      "shot": {
+        "name": "2.-Email-Preview",
+        "clip": {
+          "element": ".el-dialog",
+          "pad": 32
+        }
+      }
     }
-  ]
+  ],
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345"
 }

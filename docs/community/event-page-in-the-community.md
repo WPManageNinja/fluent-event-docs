@@ -15,6 +15,7 @@ Click an event in the feed or on the **Events** page to open its **event page**.
 - The date and time.
 - The place: the venue for an in-person event, or **Online** for an online one.
 - The going count, when the event shows it.
+- **Comments**: A comment box under the event, where members can discuss it. It is hidden when comments are turned off on the post.
 
 ## The details box
 
