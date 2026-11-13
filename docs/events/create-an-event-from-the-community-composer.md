@@ -9,7 +9,7 @@ Administrators can create events without leaving the FluentCommunity portal. The
 
 ## Opening the Event Form in the Portal
 
-1. In the portal, open **Events**.
+1. In the portal, open **Events**. If you do not see it, [turn on the Events menu item](/turn-on-events-in-your-community) first.
 2. Click **Create new event**.
 
 ![The community portal Events page with an arrow pointing to Create new event](/images/events/portal-composer/1.-Create-New-Event-Button.webp)

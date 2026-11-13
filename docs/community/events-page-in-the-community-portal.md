@@ -5,7 +5,7 @@ description: Browse upcoming and past events from the whole community or from on
 
 # Events Page in the Community Portal
 
-The **Events** link in the portal's top menu opens **All Events**, a page that lists events from across the community. Each space also has its own events.
+The **Events** link in the portal menu opens **All Events**, a page that lists events from across the community. Each space can also show its own **Events** tab. Both are off until you turn them on. See [Turn on Events in your community](/turn-on-events-in-your-community).
 
 ## Browsing All, Upcoming and Past Events
 
@@ -31,7 +31,7 @@ The view shown first is set in [General settings](/general-settings). If **Disab
 
 ## Seeing Events Inside a Space
 
-Events posted in a space also show in that space's feed. A space's calendar collects only that space's events.
+Events posted in a space also show in that space's feed. A space's calendar collects only that space's events, and the space's **Events** tab lists just those.
 
 ![A space's feed in the portal showing an event post](/images/community/portal-events/4.-Space-Events.webp)
 
