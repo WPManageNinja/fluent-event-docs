@@ -39,3 +39,5 @@ features:
     details: Send confirmations, cancellation notices and reminders before an event starts.
     link: /email-notifications-overview
 ---
+
+<p class="home-footer">Copyright © 2026 FluentEvent</p>
