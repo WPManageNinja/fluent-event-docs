@@ -112,6 +112,7 @@ export default defineConfig({
         items: [
           { text: 'Introduction', link: '/fluent-event-introduction' },
           { text: 'Install & activate', link: '/install-and-activate-fluent-event' },
+          { text: 'Enable in FluentCommunity', link: '/enable-fluent-event-in-fluentcommunity' },
           { text: 'Create your first event', link: '/create-your-first-event' },
           { text: 'Admin overview', link: '/fluent-event-admin-overview' }
         ]
@@ -165,8 +166,16 @@ export default defineConfig({
           { text: 'Meeting link visibility', link: '/meeting-link-visibility' },
           { text: 'Add to your calendar', link: '/add-an-event-to-your-calendar' },
           { text: 'Who can see an event', link: '/who-can-see-an-event' },
-          { text: 'Move or delete posts & spaces', link: '/move-or-delete-event-posts-and-spaces' },
-          { text: 'Public events pages', link: '/public-events-pages' }
+          { text: 'Move or delete posts & spaces', link: '/move-or-delete-event-posts-and-spaces' }
+        ]
+      },
+      {
+        text: 'Public Pages',
+        collapsed: true,
+        items: [
+          { text: 'Public events pages', link: '/public-events-pages' },
+          { text: 'Show events on any page', link: '/show-events-on-any-page' },
+          { text: 'Customize the event page', link: '/customize-the-event-page-template' }
         ]
       },
       {

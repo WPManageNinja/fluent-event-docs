@@ -16,5 +16,8 @@
         "crop": "auto"
       }
     }
-  ]
+  ],
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345"
 }

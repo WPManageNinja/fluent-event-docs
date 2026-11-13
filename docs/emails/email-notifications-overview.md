@@ -7,8 +7,6 @@ description: See which emails FluentEvent sends to guests, when each is sent and
 
 **FluentEvent** emails guests when they register, when they cancel and before an event starts. Manage all three in **FluentEvent** › **Settings** › **Email Notifications**.
 
-![The Email Notifications screen with confirmation, cancellation and reminder settings](/images/emails/overview/1.-Email-Notifications-Screen.webp)
-
 ## The Three Emails FluentEvent Sends
 
 - **Confirmation email**: sent when a guest registers as going. See [Confirmation and cancellation emails](/confirmation-and-cancellation-emails).
@@ -16,6 +14,18 @@ description: See which emails FluentEvent sends to guests, when each is sent and
 - **Reminder emails**: sent before the event starts, at times you choose. See [Event reminder emails](/event-reminder-emails).
 
 All three are on by default. Each has its own switch, so you can turn any off. Click **Save Settings** after changing them.
+
+![The Email Notifications screen with confirmation, cancellation and reminder settings](/images/emails/overview/1.-Email-Notifications-Screen.webp)
+
+## Previewing an Email
+
+Click the eye icon next to a switch to see what guests receive. The **Email Preview** window shows the **Subject** and the email as a guest sees it, with your footer. The preview uses sample details, such as a guest called Jane Doe, so no real guest is emailed.
+
+- **Preview the confirmation email**: The email guests get when they register.
+- **Preview the cancellation email**: The email guests get when a registration is cancelled.
+- **Preview the reminder email**: The email guests get before the event starts.
+
+![The Email Preview window showing the subject and the confirmation email](/images/emails/overview/2.-Email-Preview.webp)
 
 ## Sending Rules for Event Emails
 

@@ -12,7 +12,7 @@ When an event is posted in a space, it appears in the community feed like any ot
 ## Viewing an Event Post in the Feed
 
 - The post's author, time and the space it was posted in.
-- The **feed post** text the administrator wrote.
+- The **feed post** text the administrator wrote. If it was left empty, the event's title is used as the post text.
 - An event card with the date, the event name, the full date and time, and whether it is **Online** or **In person**.
 - The going count, for example "7 going", when the event shows it.
 - The RSVP button. Members see **Interested?** and choose **Going** or **Not going**. Visitors who are not logged in see **Log in to RSVP**, and Open events show **Register**.

@@ -7,7 +7,7 @@
   },
   "steps": [
     {
-      "admin": "/calendars/1"
+      "admin": "/calendars/5"
     },
     {
       "click": "#fe-tab-settings"
@@ -21,6 +21,32 @@
         "clip": "app",
         "crop": "auto"
       }
+    },
+    {
+      "fill": {
+        "selector": ".fe-danger-zone input",
+        "value": "Events & Meetups"
+      }
+    },
+    {
+      "wait": 400
+    },
+    {
+      "click": {
+        "text": "Delete Calendar"
+      }
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "2.-Delete-Calendar-Confirmation",
+        "clip": "app"
+      }
     }
-  ]
+  ],
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345"
 }

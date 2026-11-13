@@ -29,6 +29,10 @@ An event does not show to anyone in the community when:
 
 Anyone who opens the link to a hidden event sees the not-found page. The page does not say whether the event exists.
 
+## Public pages
+
+The community rules above apply inside FluentCommunity. Separately, a **Public** or **Unlisted** event in a **Public** calendar also has a public page on your site that anyone can open. See [Public events pages](/public-events-pages).
+
 ## Meeting links
 
 Seeing an event does not show the meeting link. On RSVP and Open events, only registered guests see it. See [Meeting link visibility](/meeting-link-visibility).

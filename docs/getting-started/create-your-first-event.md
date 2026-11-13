@@ -9,7 +9,7 @@ This quick start takes you from an empty Events page to a published event that m
 
 ## Before You Create an Event
 
-You need a FluentCommunity discussion space to post in, and you must be a site administrator. Events cannot be posted in course spaces. If you have no space yet, create one in FluentCommunity first.
+You need to be a site administrator, and FluentEvent must be [enabled in FluentCommunity](/enable-fluent-event-in-fluentcommunity). You also need a FluentCommunity discussion space to post in. Events cannot be posted in course spaces. If you have no space yet, create one in FluentCommunity first.
 
 ## Opening the Create Event Form
 
@@ -20,16 +20,16 @@ You need a FluentCommunity discussion space to post in, and you must be a site a
 
 ## Completing Your First Event Form
 
-1. Under **Where do you want to post this event?**, choose **In a space** and pick the space.
+1. Under **Where do you want to post this event?**, choose **In a space**, then pick the **Space**.
 2. Write the **Feed post** text members see above the event.
 3. Enter an **Event name**, then set the start and end date, time and **Timezone**.
 4. Under **Venue type**, choose **In person** and fill in the venue name and address, or choose **Online** and paste a **Meeting link**.
 5. Under **Entry type**, keep **RSVP** so members can say whether they are going.
-6. Save the event.
+6. Click **Create Event**.
 
 Members of the space now see the event in the feed and on the **Events** page, with its date, place and an RSVP button.
 
-![The Create Event page in the community portal](/images/getting-started/first-event/2.-Create-Event-Page.webp)
+![The Create Event page in the community portal with the space, feed post and event fields](/images/getting-started/first-event/2.-Create-Event-Page.webp)
 
 ## Continuing with Event Setup
 

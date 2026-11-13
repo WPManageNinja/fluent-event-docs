@@ -7,6 +7,8 @@ description: Learn what FluentEvent does, how events, calendars, guests and emai
 
 **FluentEvent** adds events to your [FluentCommunity](https://wordpress.org/plugins/fluent-community/) site. You post an event in a discussion space from the community portal, members see it in the feed and on the Events page, and they RSVP with one click. FluentEvent keeps track of the guests and emails them confirmations and reminders.
 
+The community side of FluentEvent starts switched off. You turn it on once in FluentCommunity. See [Enable FluentEvent in FluentCommunity](/enable-fluent-event-in-fluentcommunity).
+
 ![The FluentEvent admin dashboard showing event and guest totals, a guest trends chart and upcoming events](/images/getting-started/introduction/1.-Admin-Dashboard.webp)
 
 ## What You Can Do with FluentEvent
@@ -37,6 +39,6 @@ description: Learn what FluentEvent does, how events, calendars, guests and emai
 
 ## Features Not Available in Version 1.0.0
 
-FluentEvent needs FluentCommunity to be installed and active. Events can be posted only in discussion spaces, not in course spaces. Paid tickets, recurring events and events created by members are not available yet.
+FluentEvent needs FluentCommunity to be installed and active, and WordPress 6.7 or newer. Events can be posted only in discussion spaces, not in course spaces. Paid tickets, recurring events and events created by members are not available yet.
 
-Ready to start? [Install and activate FluentEvent](/install-and-activate-fluent-event), then [create your first event](/create-your-first-event).
+Ready to start? [Install and activate FluentEvent](/install-and-activate-fluent-event), [enable it in FluentCommunity](/enable-fluent-event-in-fluentcommunity), then [create your first event](/create-your-first-event).

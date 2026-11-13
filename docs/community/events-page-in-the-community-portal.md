@@ -5,7 +5,7 @@ description: Browse upcoming and past events from the whole community or from on
 
 # Events Page in the Community Portal
 
-The **Events** link in the portal menu opens **All Events**, a page that lists events from across the community. Each space can also show its own **Events** tab. Both are off until you turn them on. See [Turn on Events in your community](/turn-on-events-in-your-community).
+The **Events** link in the portal menu opens **All Events**, a page that lists events from across the community. Each space can also show its own **Events** tab. They show only after FluentEvent is [enabled in FluentCommunity](/enable-fluent-event-in-fluentcommunity) and the menu item and the space tab are turned on. See [Turn on Events in your community](/turn-on-events-in-your-community). The page address uses your **Events URL slug**, which is `events` by default.
 
 ## Browsing All, Upcoming and Past Events
 
