@@ -5,11 +5,11 @@ description: Compare the RSVP, Open and None entry types and choose how guests j
 
 # RSVP and Open Modes
 
-The **Entry type** of an event decides who can register and what they see. You set it in the **Registration** section of the event form, and it is shown on the event as **Registration Type**.
+The **Entry type** of an event decides who can register and what they see. You set it in the **Registration** section of the event form, and it is shown on the event as **Registration Type**. New events use **RSVP** unless you change it.
 
 ## Understanding the Three Entry Types
 
-- **RSVP** (default): logged-in members say whether they are going. They choose **Going** or **Not going** from the event page.
+- **RSVP** (default): logged-in members say whether they are going. They choose **Going** or **Not going** from the **Interested?** menu on the event.
 - **Open**: guests register with their name and email, with no login needed. Use this for events that visitors outside your community can join.
 - **None**: nobody registers. Anyone who can see the event sees all of it, meeting link included.
 
@@ -24,9 +24,19 @@ The **Entry type** of an event decides who can register and what they see. You s
 | Meeting link | Shown to guests who are going | Shown to guests who are going | Shown to everyone who can see the event |
 | Confirmation email | Yes, if turned on | Yes, if turned on | No |
 
+## What Members and Guests See
+
+On an **RSVP** event, a logged-in member sees an **Interested?** menu with **Going** and **Not going**. A visitor who is not logged in sees **Log in to RSVP**.
+
+On an **Open** event, a visitor sees a **Register** form with **Name** and **Email** fields. After registering, the button changes to **Registered**.
+
+In both cases, a guest can choose **Cancel registration**. FluentEvent asks them to confirm, because they lose their spot and can register again later.
+
+Registration closes when the event ends. The event then shows **Ended**, and a new registration is refused with the message that the event has already ended.
+
 ## Showing How Many Guests Are Going
 
-Turn on **Show how many guests are going** to display the number next to the RSVP button (for example "27 going").
+**Show how many guests are going** is turned on by default. It displays the number next to the RSVP button (for example "27 going"). Turn it off to hide the count from members.
 
 ## Checking an Event's Registration Type
 

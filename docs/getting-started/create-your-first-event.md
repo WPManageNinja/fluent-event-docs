@@ -18,7 +18,7 @@ You need a FluentCommunity discussion space to post in, and you must be a site a
 
 ![The community portal Events page with an arrow pointing to the Create new event button](/images/getting-started/first-event/1.-Create-New-Event-Button.webp)
 
-## Filling In the Event Details
+## Completing Your First Event Form
 
 1. Under **Where do you want to post this event?**, choose **In a space** and pick the space.
 2. Write the **Feed post** text members see above the event.
