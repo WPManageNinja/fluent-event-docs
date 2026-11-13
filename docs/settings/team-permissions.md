@@ -7,7 +7,7 @@ description: See who can create events, manage guests and open the FluentEvent a
 
 In version 1.0.0, the **FluentEvent** admin is for site administrators only. Members and visitors can take part in events but cannot manage them.
 
-## Administrators
+## What Administrators Can Do
 
 Users with the WordPress administrator role can:
 
@@ -16,7 +16,7 @@ Users with the WordPress administrator role can:
 - Change settings and email notifications.
 - Post events from the FluentCommunity **Create new event** page.
 
-## Members
+## What Members Can Do
 
 Logged-in FluentCommunity members can:
 
@@ -26,6 +26,6 @@ Logged-in FluentCommunity members can:
 
 Members cannot create events.
 
-## Visitors
+## What Visitors Can Do
 
 People who are not logged in can register for an **Open** event with a name and email. If you turn on landing pages, they can also browse public calendars. See [General settings](/general-settings).

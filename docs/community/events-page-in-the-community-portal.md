@@ -7,11 +7,11 @@ description: Browse upcoming and past events from the whole community or from on
 
 The **Events** link in the portal's top menu opens **All Events**, a page that lists events from across the community. Each space also has its own events.
 
-## Browse all events
+## Browsing All, Upcoming and Past Events
 
 Use **All**, **Upcoming** and **Past** to choose which events to list, and **Search events** to find one by name. Load more events with **Load more** when the list is long.
 
-## Switch the view
+## Switching the Events Page Layout
 
 Three icons switch the layout.
 
@@ -29,7 +29,7 @@ Three icons switch the layout.
 
 The view shown first is set in [General settings](/general-settings). If **Disable view change option** is on, members cannot switch.
 
-## Events in a space
+## Seeing Events Inside a Space
 
 Events posted in a space also show in that space's feed. A space's calendar collects only that space's events.
 

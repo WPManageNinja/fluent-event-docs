@@ -9,7 +9,7 @@ description: Learn what FluentEvent does, how events, calendars, guests and emai
 
 ![The FluentEvent admin dashboard showing event and guest totals, a guest trends chart and upcoming events](/images/getting-started/introduction/1.-Admin-Dashboard.webp)
 
-## What you can do
+## What You Can Do with FluentEvent
 
 - **Post events in your community.** Create an event from the WordPress admin or from the FluentCommunity portal, in person or online, with a cover image, date, time and timezone.
 - **Collect RSVPs.** Choose how guests join: members RSVP, anyone registers with a name and email, or nobody registers.
@@ -18,7 +18,7 @@ description: Learn what FluentEvent does, how events, calendars, guests and emai
 - **Keep guests informed.** FluentEvent sends registration confirmations, cancellation notices and reminders before the event starts.
 - **See the numbers.** The dashboard shows event and guest totals and a guest trends chart.
 
-## How the pieces fit together
+## How Calendars, Events and Guests Fit Together
 
 | In FluentEvent | What it is |
 | --- | --- |
@@ -29,13 +29,13 @@ description: Learn what FluentEvent does, how events, calendars, guests and emai
 
 ![An event post in the FluentCommunity feed with the date, location, going count and RSVP button](/images/getting-started/introduction/2.-Event-In-Feed.webp)
 
-## Who does what
+## Who Manages Events and Who Attends
 
 - **Site administrators** create and manage events, calendars, guests and settings.
 - **Members** see events, RSVP and receive emails.
 - **Visitors** can register for an Open event with a name and email, and can browse public calendars if you turn on landing pages.
 
-## What is not in version 1.0.0
+## Features Not Available in Version 1.0.0
 
 FluentEvent needs FluentCommunity to be installed and active. Paid tickets, recurring events and events created by members are not available yet.
 

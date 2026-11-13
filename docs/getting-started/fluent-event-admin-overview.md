@@ -14,7 +14,7 @@ The **FluentEvent** admin has four areas, all reachable from the bar at the top 
 3. **Events**: every event as cards, a timeline or a calendar. See [Events list and views](/manage-events-list-views).
 4. **Settings**: the default events view, public landing pages, email sender details and email notifications. See [General settings](/general-settings).
 
-## Where to find common tasks
+## Finding Common Tasks in the Admin
 
 | I want to | Go to |
 | --- | --- |
@@ -25,10 +25,10 @@ The **FluentEvent** admin has four areas, all reachable from the bar at the top 
 | Change reminder timing | **Settings** › **Email Notifications** |
 | Change the sender name | **Settings** › **General** › **Email** |
 
-## Dark mode
+## Switching to Dark Mode
 
 The moon icon at the top right switches the FluentEvent admin between light and dark appearance.
 
-## Who can open it
+## Who Can Open the FluentEvent Admin
 
 The FluentEvent admin is for site administrators. See [Who can manage events](/team-permissions).

@@ -7,7 +7,7 @@ description: Learn who can see an online event's meeting link, and why guests mu
 
 An online event has a **Meeting link** that administrators enter when they create the event. FluentEvent protects that link on events that take registrations.
 
-## RSVP and Open events
+## Meeting Links on RSVP and Open Events
 
 On **RSVP** and **Open** events, the link stays hidden until you register. Before that, the event page shows a note: "Please register for the event to see the meeting link."
 
@@ -17,11 +17,11 @@ After you register, a **Join online** button appears in the event's details box 
 
 ![An event page with the Join online button visible](/images/community/meeting-link/2.-Join-Online-Button.webp)
 
-## Events with no registration
+## Meeting Links on Events with No Registration
 
 On an event whose entry type is **None**, nobody registers, so anyone who can see the event sees the meeting link.
 
-## Admins
+## Meeting Link Access for Admins
 
 Administrators see the **Join online** button and the link in the admin event overview. Only `http` and `https` links can be saved. See [Event details and settings](/event-details-and-settings).
 

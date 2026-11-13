@@ -7,14 +7,14 @@ description: Post an event from the FluentCommunity portal by choosing where to 
 
 Administrators can create events without leaving the FluentCommunity portal. The **Create new event** button on the portal's Events page opens a full event form.
 
-## Open the form
+## Opening the Event Form in the Portal
 
 1. In the portal, open **Events**.
 2. Click **Create new event**.
 
 ![The community portal Events page with an arrow pointing to Create new event](/images/events/portal-composer/1.-Create-New-Event-Button.webp)
 
-## Fill in the form
+## Filling In the Portal Event Form
 
 ![The Create Event page in the community portal](/images/events/portal-composer/2.-Create-Event-Page.webp)
 

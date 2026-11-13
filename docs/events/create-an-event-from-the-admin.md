@@ -11,7 +11,7 @@ Use the **Add Event** form in **FluentEvent** to create an event from the WordPr
 You can also create events from the community portal. See [Create an event from the community portal](/create-an-event-from-the-community-composer).
 :::
 
-## Open the form
+## Opening the Add Event Form
 
 1. Go to **FluentEvent** › **Events**.
 2. Click **Add Event**.
@@ -20,7 +20,7 @@ You can also create events from the community portal. See [Create an event from 
 
 You can also use **FluentEvent** › **Add New Event** in the WordPress menu. An event needs a calendar, so if you have none the form asks you to create one first. See [Create and edit a calendar](/create-and-edit-a-calendar).
 
-## Fill in the form
+## Filling In the Event Details
 
 The form has sections, from top to bottom.
 
@@ -38,12 +38,12 @@ The form has sections, from top to bottom.
 
 Every field is explained in [Event details and settings](/event-details-and-settings).
 
-## Choose how guests join
+## Choosing How Guests Join
 
 ![The Registration section with the RSVP, Open and None entry types](/images/events/create-event-admin/4.-Registration-Section.webp)
 
 **RSVP** is selected by default. See [RSVP and Open modes](/event-entry-modes-rsvp-and-open) to compare the three types.
 
-## Save
+## Saving the New Event
 
 Click **Create Event**. The form checks that the event has a name, that the end is after the start, and that an online event has a meeting link.

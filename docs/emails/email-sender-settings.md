@@ -9,7 +9,7 @@ The sender details are shared by all event emails: confirmations, cancellations 
 
 ![The Email section of General settings with the sender fields](/images/emails/sender/1.-Email-Sender-Fields.webp)
 
-## Fields
+## Setting the Sender Name, Email and Footer
 
 - **From name** (required): the name guests see, such as your business name.
 - **From email address** (required): the address the emails are sent from.

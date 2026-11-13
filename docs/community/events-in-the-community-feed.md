@@ -9,7 +9,7 @@ When an event is posted in a space, it appears in the community feed like any ot
 
 ![An event post in the community feed with the date, location, going count and an RSVP button](/images/community/feed/1.-Event-Post-In-Feed.webp)
 
-## What members see
+## Viewing an Event Post in the Feed
 
 - The post's author, time and the space it was posted in.
 - The **feed post** text the administrator wrote.
@@ -17,7 +17,7 @@ When an event is posted in a space, it appears in the community feed like any ot
 - The going count, for example "7 going", when the event shows it.
 - The RSVP button. Members see **Interested?** and choose **Going** or **Not going**. Visitors who are not logged in see **Log in to RSVP**, and Open events show **Register**.
 
-## Open the event
+## Opening the Full Event Page
 
 Click the event to see the full event page with its description and details. See [RSVP to an event](/rsvp-to-an-event).
 

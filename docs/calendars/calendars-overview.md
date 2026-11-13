@@ -9,20 +9,20 @@ A **calendar** holds events. Every FluentCommunity space gets its own calendar, 
 
 ![The Calendars screen listing five calendars grouped under FluentCommunity Spaces](/images/calendars/overview/1.-Calendars-List.webp)
 
-## The Calendars list
+## Viewing the Calendars List
 
 - **Status filters**: **All**, **Public**, **Private** and **Draft**, each with a count.
 - **Search calendars**: find a calendar by name.
 - **FluentCommunity Spaces**: calendars that belong to your spaces are grouped under this heading.
 - **Each row** shows the calendar name and slug, its status, how many events and guests it has, an **Add Event** shortcut and a menu with more actions.
 
-## Calendar statuses
+## Understanding Calendar Statuses
 
 - **Public**: anyone can find it. Public calendars can appear on [landing pages](/general-settings) when you turn them on.
 - **Private**: no public page.
 - **Draft**: not ready yet.
 
-## Open a calendar
+## Opening a Calendar's Detail Page
 
 Click a calendar to see its detail page.
 

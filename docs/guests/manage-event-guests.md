@@ -9,7 +9,7 @@ Every event has a **Guests** tab with everyone who registered. Open **FluentEven
 
 ![The Guests tab of an event with the guest list and status tabs](/images/guests/manage/1.-Guests-Tab.webp)
 
-## The guest list
+## Reading the Guest List
 
 Each row shows:
 
@@ -19,16 +19,16 @@ Each row shows:
 - **Status**: **Going**, **Not Going**, **Checked In** or **Cancelled**. Checked-in guests also show the date and time of check-in.
 - **More**: a menu with **View**, **Edit** and **Delete**.
 
-## Search and filter
+## Searching and Filtering Guests
 
 Type in **Search guests** to find a guest. Use the tabs above the list to filter by status. Each tab shows a count, for example **Going (6)**. The tabs are **All**, **Going**, **Not Going**, **Checked In** and **Cancelled**.
 
 ![The guest list with the status filter tabs and the count on each tab](/images/guests/manage/2.-Status-Filters.webp)
 
-## Change a status
+## Updating a Guest's Status from the List
 
 Click a guest's status to open a menu titled "Change status of" that guest, then choose the new status. See [Guest statuses and check-in](/guest-statuses-and-check-in).
 
-## Add, edit and remove guests
+## Adding, Editing and Removing Guests
 
 Click **Add Guest** to add someone yourself, or use **More** on a row to view, edit or delete a guest. See [Add, edit and remove a guest](/add-edit-and-remove-a-guest).

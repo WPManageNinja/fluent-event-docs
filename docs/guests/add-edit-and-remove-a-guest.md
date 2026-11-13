@@ -7,7 +7,7 @@ description: Add a guest by hand or from a WordPress user, edit their details an
 
 Guests usually register themselves, but you can also manage them from the event's **Guests** tab.
 
-## Add a guest
+## Adding a Guest to an Event
 
 1. Open the event and go to the **Guests** tab.
 2. Click **Add Guest**.
@@ -25,18 +25,18 @@ Guests usually register themselves, but you can also manage them from the event'
 
 4. Click **Add Guest**.
 
-## Edit a guest
+## Editing a Guest's Details
 
 1. In the guest list, click **More** on the guest's row and choose **Edit**.
 2. Change the details or status and click **Update Guest**.
 
 When you change a status, the dialog offers to send the matching email, for example **Send cancellation email**, if that email is turned on.
 
-## View a guest
+## Viewing Guest Details
 
 Choose **View** in the **More** menu to see the guest's details.
 
-## Remove a guest
+## Removing a Guest from an Event
 
 1. Click **More** on the guest's row and choose **Delete**.
 2. Confirm in the dialog.

@@ -7,7 +7,7 @@ description: Open an event, change its details, add a description and delete the
 
 Each event has a detail page with four tabs and an **Edit Event** button.
 
-## Open the event
+## Opening an Event to Manage It
 
 1. Go to **FluentEvent** › **Events**.
 2. Click **Manage Event** on the event you want.
@@ -21,7 +21,7 @@ The tabs are:
 - **Guests**: the guest list. See [Manage event guests](/manage-event-guests).
 - **Settings**: the **Danger Zone** for deleting the event.
 
-## Edit an event
+## Editing Event Details
 
 Click **Edit Event**, change what you need and click **Update Event**. The form is the same as when you created the event. Guests already registered are not affected.
 
@@ -31,7 +31,7 @@ You can also click **Edit Event** on any event in the list, or choose **Edit eve
 
 If you change the start time, reminder emails are rescheduled for the new time. See [Event reminder emails](/event-reminder-emails).
 
-## Delete an event
+## Deleting an Event from the Danger Zone
 
 1. Open the event and go to the **Settings** tab.
 2. In the **Danger Zone**, type the event name in the box to confirm.

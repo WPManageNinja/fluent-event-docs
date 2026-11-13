@@ -7,12 +7,12 @@ description: Install FluentCommunity and FluentEvent, activate both plugins and 
 
 **FluentEvent** is a WordPress plugin that runs on top of FluentCommunity. Install FluentCommunity first, then add FluentEvent.
 
-## Before you start
+## Checking the Requirements
 
 - WordPress 6.0 or newer and PHP 7.4 or newer.
 - [FluentCommunity](https://wordpress.org/plugins/fluent-community/) installed and active. The free version is enough.
 
-## Install FluentEvent
+## Installing FluentEvent
 
 1. Go to **Plugins** › **Add New Plugin** and search for **FluentEvent**, or click **Upload Plugin** and choose the plugin zip.
 2. Click **Install Now**.
@@ -24,7 +24,7 @@ description: Install FluentCommunity and FluentEvent, activate both plugins and 
 If FluentCommunity is not active, FluentEvent cannot create events. Activate FluentCommunity before FluentEvent.
 :::
 
-## Open FluentEvent
+## Opening FluentEvent in the WordPress Admin
 
 After activation, a **FluentEvent** item appears in the WordPress admin menu. Its sub-menu has **Dashboard**, **Add New Event**, **Calendars**, **Events** and **Settings**.
 
@@ -32,6 +32,6 @@ After activation, a **FluentEvent** item appears in the WordPress admin menu. It
 
 Open **FluentEvent** › **Dashboard** to see the overview, then continue with [Create your first event](/create-your-first-event).
 
-## If you delete the plugin
+## What Happens When You Delete the Plugin
 
 Your events, guests and settings are kept when you delete FluentEvent, so reinstalling it does not lose your data.

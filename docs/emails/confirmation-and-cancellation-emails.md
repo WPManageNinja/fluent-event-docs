@@ -9,7 +9,7 @@ These two emails tell guests their registration was recorded or removed. Switch 
 
 ![The Registration section with the Confirmation email and Cancellation email switches](/images/emails/confirm-cancel/1.-Registration-Email-Toggles.webp)
 
-## Confirmation email
+## Turning On the Confirmation Email
 
 Turn on **Confirmation email** to email guests when they register for an event.
 
@@ -17,7 +17,7 @@ Turn on **Confirmation email** to email guests when they register for an event.
 - **Subject**: "You are registered for" followed by the event name.
 - **Not sent** for draft events.
 
-## Cancellation email
+## Turning On the Cancellation Email
 
 Turn on **Cancellation email** to email guests when they cancel or when an admin cancels their registration.
 
@@ -25,7 +25,7 @@ Turn on **Cancellation email** to email guests when they cancel or when an admin
 - **Subject**: "Your registration for" the event name "is cancelled".
 - **Not sent** for draft events.
 
-## What the emails contain
+## What Each Email Contains
 
 Each email greets the guest and states the event name, date and time in the event's timezone. It ends with your email footer. Set the sender and footer in [Email sender settings](/email-sender-settings).
 

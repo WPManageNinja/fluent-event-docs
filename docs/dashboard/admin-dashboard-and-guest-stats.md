@@ -9,7 +9,7 @@ The **Dashboard** is the first screen in **FluentEvent**. It shows how many even
 
 ![The FluentEvent dashboard with stat cards, the guest trends chart and event lists](/images/dashboard/dashboard/1.-Dashboard-Overview.webp)
 
-## Stat cards
+## Reading the Stat Cards
 
 Eight cards sit at the top of the page.
 
@@ -22,13 +22,13 @@ Eight cards sit at the top of the page.
 - **Checked In Guests**: guests you have checked in.
 - **Cancelled Guests**: guests whose registration was cancelled.
 
-## Guest Trends
+## Tracking Growth with the Guest Trends Chart
 
 The **Guest Trends** chart plots three lines over a date range: **Total Guests**, **Checked In** and **Cancelled**. Use the **From** and **To** date pickers above the chart to change the range. If nothing happened in that range, the chart shows "No guest activity in this period."
 
 ![The Guest Trends chart with lines for total guests, checked-in guests and cancelled guests](/images/dashboard/dashboard/2.-Guest-Trends-Chart.webp)
 
-## Event lists
+## Browsing the Dashboard Event Lists
 
 - **Ongoing Events**: events running now, or a note that none are running.
 - **Upcoming Events**: the next events with their start dates.

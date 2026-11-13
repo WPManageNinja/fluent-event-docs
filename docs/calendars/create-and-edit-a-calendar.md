@@ -7,7 +7,7 @@ description: Create a calendar with a title, slug, color and visibility, and edi
 
 Create a calendar when you need another group for events. Space calendars are created for you, and you can edit them like any other.
 
-## Create a calendar
+## Creating a New Calendar
 
 1. Go to **FluentEvent** › **Calendars**.
 2. Click **Create Calendar**.
@@ -18,13 +18,13 @@ Create a calendar when you need another group for events. Space calendars are cr
 
 ![The Create Calendar form with title, slug, color and visibility](/images/calendars/create-edit/2.-Create-Calendar-Form.webp)
 
-### Identity
+### Setting the Calendar Identity
 
 - **Title** (required): the name people see wherever the calendar appears.
 - **Slug** (required): identifies the calendar in links.
 - **Color**: pick a swatch, or click **+** for a custom color. The color marks the calendar's events.
 
-### Visibility
+### Choosing Calendar Visibility
 
 - **Public**: anyone can find it.
 - **Private**: no public page.
@@ -32,7 +32,7 @@ Create a calendar when you need another group for events. Space calendars are cr
 
 Click **Reset Calendar** to clear the form.
 
-## Edit a calendar
+## Editing an Existing Calendar
 
 1. Open the calendar and click **Edit**, or use the menu on its row in the list.
 2. Change the fields and click **Update Calendar**.

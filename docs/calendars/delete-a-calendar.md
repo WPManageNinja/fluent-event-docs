@@ -11,7 +11,7 @@ You can delete a calendar from its detail page. Deleting is permanent.
 Deleting a calendar also permanently deletes all of its events and their guests. This cannot be undone.
 :::
 
-## Steps
+## Deleting a Calendar from the Danger Zone
 
 1. Go to **FluentEvent** › **Calendars** and open the calendar.
 2. Click the **Settings** tab.

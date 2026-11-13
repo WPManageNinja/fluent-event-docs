@@ -39,6 +39,21 @@ FluentCommunity users, "admins" for site administrators. Lead into every list or
 - Tabs (`::: tabs`, `== Label`) only when one task has different routes (e.g. admin vs composer). FAQ block at the bottom for short why/what-if.
 - Keys: `<kbd>Esc</kbd>`. Inline code for slugs, shortcodes, hooks. No code blocks of plugin source.
 
+### Headings (`##` / `###`)
+
+Modelled on the Fluent Forms, FluentCRM and FluentBoards docs.
+
+- **Title Case**, 3 to 8 words, no trailing punctuation, no em dashes.
+- **Name the object, not just the action.** Never use bare labels such as "Steps", "Fields", "Basics", "Save",
+  "Next steps", "Good to know", "Open the form". Say what is opened, set or changed ("Opening the Add Event Form").
+- **Two families.** Task sections use a gerund or imperative plus the object ("Creating a New Calendar",
+  "Deleting an Event from the Danger Zone"). Capability or reference sections use the exact UI label or its noun
+  ("Guest Trends", "Cover Image") with a verb when it helps ("Adding a Cover Image").
+- **Unique across the site.** The same heading must not appear on two pages (search results and the on-page menu show them out of context).
+- Questions become statements ("Choosing the Right Entry Type", not "Which should I use?").
+- Put the user's goal first and the UI path in the body, not in the heading.
+- Flow for how-tos: open or add, customize or configure, save, then preview or result.
+
 ## 4. Accuracy rules (FluentEvent specific)
 
 - Use the **exact UI labels** from the plugin (`resources/admin/**/*.vue`, `app/Views/**`, `readme.txt`). If a label

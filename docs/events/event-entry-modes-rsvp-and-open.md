@@ -9,13 +9,13 @@ The **Entry type** of an event decides who can register and what they see. You s
 
 ![The Registration section with the RSVP, Open and None entry types](/images/events/entry-modes/1.-Entry-Type-Options.webp)
 
-## The three entry types
+## Understanding the Three Entry Types
 
 - **RSVP** (default): logged-in members say whether they are going. They choose **Going** or **Not going** from the event page.
 - **Open**: guests register with their name and email, with no login needed. Use this for events that visitors outside your community can join.
 - **None**: nobody registers. Anyone who can see the event sees all of it, meeting link included.
 
-## Compare at a glance
+## Comparing RSVP, Open and None
 
 | | RSVP | Open | None |
 | --- | --- | --- | --- |
@@ -24,17 +24,17 @@ The **Entry type** of an event decides who can register and what they see. You s
 | Meeting link | Shown after registering | Shown after registering | Shown to everyone who can see the event |
 | Confirmation email | Yes, if turned on | Yes, if turned on | No |
 
-## Show the going count
+## Showing How Many Guests Are Going
 
 Turn on **Show how many guests are going** to display the number next to the RSVP button (for example "27 going").
 
-## See the type on an event
+## Checking an Event's Registration Type
 
 Open an event in **FluentEvent** › **Events** to see its **Registration Type** in the overview.
 
 ![The event overview with the Registration Type badge highlighted](/images/events/entry-modes/2.-Registration-Type-On-Event.webp)
 
-## Which should I use?
+## Choosing the Right Entry Type
 
 - Choose **RSVP** for community events where you want to know which members are coming.
 - Choose **Open** for webinars or meetups you want to share outside the community.

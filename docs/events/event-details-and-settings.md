@@ -7,18 +7,18 @@ description: A reference for every field on the FluentEvent event form, includin
 
 The event form uses the same fields in the admin (**FluentEvent** › **Events** › **Add Event**) and in the community portal. This page explains each section.
 
-## Cover image
+## Adding a Cover Image
 
 An optional image shown at the top of the event page and on event cards. Click the empty area to choose an image from the media library. After you add one, you can change or remove it.
 
 ![The Cover image section with an empty image area](/images/events/event-details/1.-Cover-Image-Section.webp)
 
-## Basics
+## Setting the Event Name and Calendar
 
 - **Event name** (required): the title members see.
 - **Calendar** (required): the calendar the event lives in. The event is posted in that calendar's space.
 
-## Visibility
+## Controlling Who Can Find the Event
 
 Choose who can find the event:
 
@@ -29,18 +29,18 @@ Choose who can find the event:
 - **Private**: no public page.
 - **Draft**: not ready yet. Guests do not receive emails for a draft event.
 
-## Description
+## Writing the Event Description
 
 An optional description shown on the event page. It uses the WordPress editor with **Visual** and **Code** tabs and an **Add media** button.
 
-## Date and time
+## Setting the Date, Time and Timezone
 
 ![The Date and time section with start, end and timezone fields](/images/events/event-details/3.-Date-And-Time.webp)
 
 - **Start** and **End**: each has a date and a time. The end must be after the start.
 - **Timezone**: the timezone the times are entered in. Guests see the event time in that timezone and also in the site's timezone.
 
-## Venue type
+## Choosing In Person or Online
 
 Choose **In person** or **Online**.
 
@@ -52,7 +52,7 @@ Choose **In person** or **Online**.
 
 - **Online**: enter a **Meeting link** (required). Only `http` and `https` links are accepted. Who can see the link depends on the registration type. See [Meeting link visibility](/meeting-link-visibility).
 
-## Registration
+## Configuring Event Registration
 
 - **Entry type**: **RSVP**, **Open** or **None**. See [RSVP and Open modes](/event-entry-modes-rsvp-and-open).
 - **Show how many guests are going**: turn this on to display the going count to members.
