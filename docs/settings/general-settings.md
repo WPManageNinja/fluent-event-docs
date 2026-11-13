@@ -25,7 +25,13 @@ The **Public Pages** section controls the pages visitors can open without loggin
 
 To create a page, click **+**, enter a **Page Title** and click **Add**. FluentEvent creates the page and adds the events list to it.
 
-After you pick a page, FluentEvent shows the shortcode `[fluent_events]` with a **Copy shortcode** button and a **Preview** link. If the page does not hold the events list yet, a warning says "This page doesn't contain the shortcode or block yet." Add the shortcode or the events block to the page to fix it.
+![The Add Page dialog with the page title Events typed in](/images/settings/general/2.-Add-Page-Dialog.webp)
+
+Here is an example with a page called **Events Shortcode Demo** picked. Under the field, FluentEvent shows the shortcode `[fluent_events]` with a **Copy shortcode** button and a **Preview** link. The **Event Slug** below keeps the default `event`, and the text under it shows the address, `/event/event-name/`. Nothing is saved until you click **Save Settings**.
+
+![The Public Pages section with the page Events Shortcode Demo picked and the shortcode shown beneath it](/images/settings/general/3.-Public-Pages-Example.webp)
+
+The shortcode and **Preview** link appear as soon as you pick a page. If the page does not hold the events list yet, a warning says "This page doesn't contain the shortcode or block yet." Add the shortcode or the events block to the page to fix it.
 
 ::: tip
 Only events with the **Public** or **Unlisted** visibility in a **Public** calendar have a public page. See [Calendars overview](/calendars-overview).
