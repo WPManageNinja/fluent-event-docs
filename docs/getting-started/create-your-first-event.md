@@ -1,36 +1,35 @@
 ---
 title: Create Your First Event
-description: Create an event with RSVP, publish it in a FluentCommunity space and see it in the community in a few minutes.
+description: Post your first event from the FluentCommunity portal so members can see it and RSVP in a few minutes.
 ---
 
 # Create Your First Event
 
-This quick start takes you from an empty calendar to a published event that members can RSVP to. Each step links to a page with more detail.
+This quick start takes you from an empty Events page to a published event that members can RSVP to. You create the event from the community portal, so it appears in the feed and on the Events page.
 
 ## Before You Create an Event
 
-FluentEvent creates one calendar for each FluentCommunity space. An event lives in a calendar, so you need at least one space. If you have none, create a space in FluentCommunity first.
+You need a FluentCommunity discussion space to post in, and you must be a site administrator. Events cannot be posted in course spaces. If you have no space yet, create one in FluentCommunity first.
 
-## Creating the Event
+## Opening the Create Event Form
 
-1. Go to **FluentEvent** › **Events** and click **Add Event**.
+1. In the community portal, open **Events**. If you do not see it, [turn on the Events menu item](/turn-on-events-in-your-community).
+2. Click **Create new event**.
 
-![The Events screen with an arrow pointing to the Add Event button](/images/getting-started/first-event/1.-Add-Event-Button.webp)
+![The community portal Events page with an arrow pointing to the Create new event button](/images/getting-started/first-event/1.-Create-New-Event-Button.webp)
 
-2. Enter an **Event name** and choose a **Calendar**. The event is posted in that calendar's space.
-3. Set **Visibility** to **Public** so members can find it.
-4. Choose the start and end date and time, and the **Timezone**.
-5. Under **Venue type**, choose **In person** and fill in the venue and address, or choose **Online** and paste a meeting link.
-6. Under **Registration**, keep **Entry type** on **RSVP** so members can say whether they are going.
-7. Click **Create Event**.
+## Filling In the Event Details
 
-![The Create Event form with the event name filled in](/images/getting-started/first-event/2.-New-Event-Form.webp)
+1. Under **Where do you want to post this event?**, choose **In a space** and pick the space.
+2. Write the **Feed post** text members see above the event.
+3. Enter an **Event name**, then set the start and end date, time and **Timezone**.
+4. Under **Venue type**, choose **In person** and fill in the venue name and address, or choose **Online** and paste a **Meeting link**.
+5. Under **Entry type**, keep **RSVP** so members can say whether they are going.
+6. Save the event.
 
-## Previewing the Event in Your Community
+Members of the space now see the event in the feed and on the **Events** page, with its date, place and an RSVP button.
 
-Open your community portal's **Events** page. Your event appears with its date, place and an RSVP button.
-
-![The community portal Events page listing upcoming events](/images/getting-started/first-event/3.-Event-In-Portal.webp)
+![The Create Event page in the community portal](/images/getting-started/first-event/2.-Create-Event-Page.webp)
 
 ## Continuing with Event Setup
 

@@ -1,44 +1,14 @@
 {
   "doc": "docs/getting-started/create-your-first-event.md",
   "outDir": "public/images/getting-started/first-event",
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345",
   "viewport": {
     "width": 1440,
     "height": 900
   },
   "steps": [
-    {
-      "admin": "/events"
-    },
-    {
-      "shot": {
-        "name": "1.-Add-Event-Button",
-        "clip": "app",
-        "arrows": [
-          {
-            "target": {
-              "text": "Add Event"
-            },
-            "from": "bottom",
-            "len": 110
-          }
-        ]
-      }
-    },
-    {
-      "admin": "/events/new"
-    },
-    {
-      "fill": {
-        "selector": "input[placeholder=\"e.g. Friday Q&A\"]",
-        "value": "Friday Q&A"
-      }
-    },
-    {
-      "shot": {
-        "name": "2.-New-Event-Form",
-        "clip": "app"
-      }
-    },
     {
       "front": "/portal/events",
       "waitUntil": "load",
@@ -47,11 +17,36 @@
       "login": true
     },
     {
-      "wait": 1200
+      "wait": 1500
     },
     {
       "shot": {
-        "name": "3.-Event-In-Portal",
+        "name": "1.-Create-New-Event-Button",
+        "clip": "viewport",
+        "arrows": [
+          {
+            "target": {
+              "text": "Create new event"
+            },
+            "from": "left",
+            "len": 150
+          }
+        ]
+      }
+    },
+    {
+      "front": "/portal/create-new-event",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 1800
+    },
+    {
+      "shot": {
+        "name": "2.-Create-Event-Page",
         "clip": "viewport"
       }
     }

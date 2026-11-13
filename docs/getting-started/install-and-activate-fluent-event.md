@@ -21,7 +21,7 @@ description: Install FluentCommunity and FluentEvent, activate both plugins and 
 ![The WordPress Plugins screen with FluentEvent listed next to FluentCommunity](/images/getting-started/install-activate/1.-Plugins-Screen.webp)
 
 ::: warning
-If FluentCommunity is not active, FluentEvent cannot create events. Activate FluentCommunity before FluentEvent.
+Without FluentCommunity, the community features (posting events, the feed and the portal Events page) do not load. Activate FluentCommunity before FluentEvent.
 :::
 
 ## Opening FluentEvent in the WordPress Admin
@@ -30,7 +30,7 @@ After activation, a **FluentEvent** item appears in the WordPress admin menu. It
 
 ![The FluentEvent item in the WordPress admin menu with its sub-menu expanded](/images/getting-started/install-activate/2.-FluentEvent-Menu.webp)
 
-Open **FluentEvent** › **Dashboard** to see the overview, then continue with [Create your first event](/create-your-first-event).
+Open **FluentEvent** › **Dashboard** to see the overview. Only site administrators see this menu. Then continue with [Create your first event](/create-your-first-event).
 
 ## What Happens When You Delete the Plugin
 
