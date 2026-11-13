@@ -1,19 +1,22 @@
 {
   "doc": "docs/guests/add-edit-and-remove-a-guest.md",
   "outDir": "public/images/guests/add-edit-remove",
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345",
   "viewport": {
     "width": 1440,
     "height": 900
   },
   "steps": [
     {
-      "admin": "/events/1"
+      "admin": "/events/11"
     },
     {
       "click": "#fe-tab-guests"
     },
     {
-      "wait": 1200
+      "wait": 1500
     },
     {
       "shot": {
@@ -46,6 +49,157 @@
           "pad": 32
         }
       }
+    },
+    {
+      "eval": "document.querySelectorAll('.el-dialog__headerbtn').forEach(b=>b.click())"
+    },
+    {
+      "wait": 500
+    },
+    {
+      "admin": "/"
+    },
+    {
+      "wait": 600
+    },
+    {
+      "admin": "/events/11"
+    },
+    {
+      "click": "#fe-tab-guests"
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "click": ".fe-guests__row .fe-action-popover__trigger-button"
+    },
+    {
+      "wait": 600
+    },
+    {
+      "shot": {
+        "name": "3.-Guest-More-Menu",
+        "clip": "app",
+        "arrows": [
+          {
+            "target": ".fe-guests__row .fe-action-popover__trigger-button",
+            "from": "left",
+            "len": 140
+          }
+        ]
+      }
+    },
+    {
+      "eval": "[...document.querySelectorAll('.fe-action-popover__item')].find(e=>e.textContent.trim()==='Edit').click()"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "4.-Edit-Guest-Dialog",
+        "clip": {
+          "element": ".el-dialog",
+          "pad": 32
+        }
+      }
+    },
+    {
+      "eval": "document.querySelectorAll('.el-dialog__headerbtn').forEach(b=>b.click())"
+    },
+    {
+      "wait": 500
+    },
+    {
+      "admin": "/"
+    },
+    {
+      "wait": 600
+    },
+    {
+      "admin": "/events/11"
+    },
+    {
+      "click": "#fe-tab-guests"
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "click": ".fe-guests__row .fe-action-popover__trigger-button"
+    },
+    {
+      "wait": 600
+    },
+    {
+      "eval": "[...document.querySelectorAll('.fe-action-popover__item')].find(e=>e.textContent.trim()==='View').click()"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "5.-Guest-Details",
+        "clip": {
+          "element": ".el-dialog",
+          "pad": 32
+        }
+      }
+    },
+    {
+      "eval": "document.querySelectorAll('.el-dialog__headerbtn').forEach(b=>b.click())"
+    },
+    {
+      "wait": 500
+    },
+    {
+      "admin": "/"
+    },
+    {
+      "wait": 600
+    },
+    {
+      "admin": "/events/11"
+    },
+    {
+      "click": "#fe-tab-guests"
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "click": ".fe-guests__row .fe-action-popover__trigger-button"
+    },
+    {
+      "wait": 600
+    },
+    {
+      "eval": "[...document.querySelectorAll('.fe-action-popover__item')].find(e=>e.textContent.trim()==='Delete').click()"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "6.-Delete-Guest-Dialog",
+        "clip": {
+          "element": ".el-dialog",
+          "pad": 32
+        }
+      }
+    },
+    {
+      "eval": "document.querySelectorAll('.el-dialog__headerbtn').forEach(b=>b.click())"
+    },
+    {
+      "wait": 500
+    },
+    {
+      "admin": "/"
+    },
+    {
+      "wait": 600
     }
   ]
 }

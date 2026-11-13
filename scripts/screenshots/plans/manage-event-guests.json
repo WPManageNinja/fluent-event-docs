@@ -1,19 +1,22 @@
 {
   "doc": "docs/guests/manage-event-guests.md",
   "outDir": "public/images/guests/manage",
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345",
   "viewport": {
     "width": 1440,
     "height": 900
   },
   "steps": [
     {
-      "admin": "/events/1"
+      "admin": "/events/11"
     },
     {
       "click": "#fe-tab-guests"
     },
     {
-      "wait": 1200
+      "wait": 1500
     },
     {
       "shot": {
@@ -28,6 +31,18 @@
           "element": ".fe-guests__table",
           "pad": 16
         }
+      }
+    },
+    {
+      "click": ".fe-guests__tag"
+    },
+    {
+      "wait": 600
+    },
+    {
+      "shot": {
+        "name": "3.-Change-Status-Menu",
+        "clip": "app"
       }
     }
   ]

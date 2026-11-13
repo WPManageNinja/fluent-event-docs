@@ -1,23 +1,41 @@
 {
   "doc": "docs/guests/guest-statuses-and-check-in.md",
   "outDir": "public/images/guests/statuses",
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345",
   "viewport": {
     "width": 1440,
     "height": 900
   },
   "steps": [
     {
-      "admin": "/events/1"
+      "admin": "/events/11"
     },
     {
       "click": "#fe-tab-guests"
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "shot": {
+        "name": "1.-Guest-Status-Tabs",
+        "clip": "app"
+      }
+    },
+    {
+      "click": {
+        "selector": ".fe-guests__toolbar .fe-switch__option",
+        "hasText": "Checked In"
+      }
     },
     {
       "wait": 1200
     },
     {
       "shot": {
-        "name": "1.-Guest-Status-Tabs",
+        "name": "2.-Checked-In-Guests",
         "clip": "app"
       }
     }
