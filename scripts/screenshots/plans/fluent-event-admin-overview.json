@@ -48,6 +48,34 @@
           }
         ]
       }
+    },
+    {
+      "click": ".fe-navbar__color-mode"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "2.-Dark-Mode",
+        "clip": "app",
+        "arrows": [
+          {
+            "target": ".fe-navbar__color-mode",
+            "from": "left",
+            "len": 150
+          }
+        ]
+      }
+    },
+    {
+      "click": ".fe-navbar__color-mode"
+    },
+    {
+      "wait": 400
     }
-  ]
+  ],
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345"
 }
