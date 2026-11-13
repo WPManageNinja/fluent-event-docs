@@ -16,12 +16,12 @@ Administrators can create events without leaving the FluentCommunity portal. The
 
 ## Filling In the Portal Event Form
 
-![The Create Event page in the community portal](/images/events/portal-composer/2.-Create-Event-Page.webp)
-
 1. **Where do you want to post this event?** Choose **In a space** (only members of that space see it) or **Community-wide**. Community-wide needs global posts turned on in FluentCommunity under **Portal Settings** › **General** › **Global Post Status**. Otherwise the option shows as turned off.
 2. **Feed post**: write the text members see in the feed above the event.
-3. **Cover image**, **Basics**, **Description**, **Date and time**, **Venue type** and **Entry type**: the same fields as in the admin form. See [Event details and settings](/event-details-and-settings).
-4. Save the event.
+3. **Cover image**, **Basics**, **Description**, **Date and time**, **Venue type** and **Entry type**: the same fields as in the admin form. The portal form has no **Calendar** or **Visibility** field. See [Event details and settings](/event-details-and-settings).
+4. Click **Create Event**.
+
+![The Create Event page in the community portal](/images/events/portal-composer/2.-Create-Event-Page.webp)
 
 The form checks that the event has a title, that the end is after the start, and that an online event has a meeting link.
 

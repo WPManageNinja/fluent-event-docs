@@ -27,8 +27,6 @@ You can also use **FluentEvent** › **Add New Event** in the WordPress menu.
 
 The **Create Event** form has sections from top to bottom. Complete the required fields and any optional ones you need.
 
-![The Create Event form showing the cover image, basics and visibility sections](/images/events/create-event-admin/2.-Create-Event-Form.webp)
-
 1. **Cover image** (optional): Click **Click to add a cover image** to set a banner. It shows at the top of the event page and on event cards.
 2. **Basics**: Enter the **Event name** (required), for example `Friday Q&A`, and choose the **Calendar** (required) the event belongs to.
 3. **Visibility**: Choose who can find the event.
@@ -41,11 +39,11 @@ The **Create Event** form has sections from top to bottom. Complete the required
 6. **Venue type**: Choose **In person** or **Online**.
 7. **Registration**: Choose how guests join and whether to show the guest count.
 
+![The Create Event form showing the cover image, basics and visibility sections](/images/events/create-event-admin/2.-Create-Event-Form.webp)
+
 For every option in detail, see [Event details and settings](/event-details-and-settings).
 
 ![The Basics section with the event name highlighted and the calendar selected](/images/events/create-event-admin/3.-Basics-Section.webp)
-
-
 
 ## Choosing How Guests Join
 
@@ -58,8 +56,6 @@ Under **Registration**, choose an **Entry type** to control how guests sign up.
 Turn **Show how many guests are going** on or off to show or hide the guest count. To compare the entry types, see [RSVP and Open modes](/event-entry-modes-rsvp-and-open).
 
 ![The Registration section with the RSVP, Open and None entry types](/images/events/create-event-admin/4.-Registration-Section.webp)
-
-
 
 ## Saving the New Event
 
