@@ -33,7 +33,7 @@ description: Learn what FluentEvent does, how events, calendars, guests and emai
 
 - **Site administrators** create and manage events, calendars, guests and settings.
 - **Members** see events, RSVP and receive emails.
-- **Visitors** can register for an Open event with a name and email, and can browse public calendars if you turn on landing pages.
+- **Visitors** can register for an Open event with a name and email. Public and unlisted events in a public calendar get their own public page, and you can show all events on a page of your site from **Settings** › **General** › **Public Pages**.
 
 ## Features Not Available in Version 1.0.0
 

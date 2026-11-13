@@ -9,9 +9,9 @@ The **Entry type** of an event decides who can register and what they see. You s
 
 ## Understanding the Three Entry Types
 
-- **RSVP** (default): logged-in members say whether they are going. They choose **Going** or **Not going** from the **Interested?** menu on the event.
-- **Open**: guests register with their name and email, with no login needed. Use this for events that visitors outside your community can join.
-- **None**: nobody registers. Anyone who can see the event sees all of it, meeting link included.
+- **RSVP** (default): Logged-in members say whether they are going. They choose **Going** or **Not going** from the **Interested?** menu on the event.
+- **Open**: Guests register with their name and email, with no login needed. Use this for events that visitors outside your community can join.
+- **None**: Nobody registers. Anyone who can see the event sees all of it, meeting link included.
 
 ![The Registration section with the RSVP, Open and None entry types](/images/events/entry-modes/1.-Entry-Type-Options.webp)
 

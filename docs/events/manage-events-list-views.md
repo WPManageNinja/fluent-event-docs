@@ -11,9 +11,9 @@ description: Browse events as cards, a timeline or a calendar, search them and f
 
 Use the **All**, **Upcoming** and **Past** buttons at the top right.
 
-- **All**: every event, whatever its date.
-- **Upcoming**: events that have not ended yet.
-- **Past**: events that have already ended.
+- **All**: Every event, whatever its date.
+- **Upcoming**: Events that have not ended yet.
+- **Past**: Events that have already ended.
 
 **Upcoming** is selected the first time you open the screen. After that, FluentEvent remembers your last choice in your browser. Past events appear once they have ended.
 
@@ -56,8 +56,8 @@ Click **Past** to see events that have already ended. You can still open them to
 Type in **Search events** to find an event by name. Click the funnel icon to open the filter panel.
 
 - **Status**: **All**, **Public**, **Unlisted**, **Private** or **Draft**.
-- **Calendar**: show events from one calendar. See [Calendars overview](/calendars-overview).
-- **Date range**: set **From** and **To**, then click **Apply**. This filter is not available in the calendar view, which uses the month you are viewing.
+- **Calendar**: Show events from one calendar. See [Calendars overview](/calendars-overview).
+- **Date range**: Set **From** and **To**, then click **Apply**. This filter is not available in the calendar view, which uses the month you are viewing.
 
 Active filters appear as chips above the list. If nothing matches, the list shows **No events found**. Remove a chip to widen the results again.
 

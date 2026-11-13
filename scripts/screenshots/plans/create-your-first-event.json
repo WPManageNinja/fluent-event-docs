@@ -35,7 +35,13 @@
       }
     },
     {
-      "front": "/portal/create-new-event",
+      "viewport": {
+        "width": 1440,
+        "height": 2000
+      }
+    },
+    {
+      "front": "/portal/events/create",
       "waitUntil": "load",
       "contentWidth": false,
       "hideThemeHeader": false,

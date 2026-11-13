@@ -14,10 +14,12 @@ Each event has a detail page with four tabs and an **Edit Event** button. Use it
 
 The event page opens with a breadcrumb back to **Events**, the cover image and these tabs:
 
-- **Overview**: the **Status**, the **Registration Type**, the date and time, the venue (or the meeting link for an online event) and the calendar. If the event's timezone differs from your site's, the page shows the time in both. Click the calendar name to open that calendar.
-- **Description**: the event description. If it is empty, the tab says **No description yet** and offers **Add Description**.
-- **Guests**: the guest list. See [Manage event guests](/manage-event-guests).
-- **Settings**: the **Danger Zone** for deleting the event.
+- **Overview**: The **Status**, the **Registration Type**, the date and time, the venue (or the meeting link for an online event), the calendar and the **Public page**. If the event's timezone differs from your site's, the page shows the time in both. Click the calendar name to open that calendar.
+- **Description**: The event description. If it is empty, the tab says **No description yet** and offers **Add Description**.
+- **Guests**: The guest list. See [Manage event guests](/manage-event-guests).
+- **Settings**: The **Danger Zone** for deleting the event.
+
+The **Public page** row shows the event's public link, with a **Copy link** button next to it. Only **Public** and **Unlisted** events have a public page, and only when their calendar is public. Otherwise the row explains why there is no page, for example that the calendar is not public.
 
 ![An event detail page with the Edit Event button highlighted](/images/events/edit-delete/1.-Event-Detail.webp)
 

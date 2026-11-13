@@ -9,7 +9,7 @@ description: Install FluentCommunity and FluentEvent, activate both plugins and 
 
 ## Checking the Requirements
 
-- WordPress 6.0 or newer and PHP 7.4 or newer.
+- WordPress 6.7 or newer and PHP 7.4 or newer.
 - [FluentCommunity](https://wordpress.org/plugins/fluent-community/) installed and active. The free version is enough.
 
 ## Installing FluentEvent

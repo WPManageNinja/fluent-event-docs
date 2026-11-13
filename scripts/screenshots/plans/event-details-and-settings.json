@@ -46,6 +46,42 @@
       }
     },
     {
+      "viewport": {
+        "width": 1440,
+        "height": 820
+      }
+    },
+    {
+      "scrollTo": {
+        "selector": "section.fe-form__section",
+        "hasText": "Description"
+      }
+    },
+    {
+      "click": ".fe-markdown-editor .ProseMirror"
+    },
+    {
+      "wait": 300
+    },
+    {
+      "eval": "document.execCommand('insertText', false, '/'); window.scrollBy(0,230)"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "3.-Description-Editor",
+        "clip": "app"
+      }
+    },
+    {
+      "admin": "/events/new"
+    },
+    {
+      "wait": 1500
+    },
+    {
       "scrollTo": {
         "selector": "section.fe-form__section",
         "hasText": "Date and time"
@@ -53,7 +89,7 @@
     },
     {
       "shot": {
-        "name": "3.-Date-And-Time",
+        "name": "4.-Date-And-Time",
         "clip": {
           "element": {
             "selector": "section.fe-form__section",
@@ -71,7 +107,7 @@
     },
     {
       "shot": {
-        "name": "4.-In-Person-Venue",
+        "name": "5.-In-Person-Venue",
         "clip": {
           "element": {
             "selector": "section.fe-form__section",
@@ -98,7 +134,7 @@
     },
     {
       "shot": {
-        "name": "5.-Online-Venue",
+        "name": "6.-Online-Venue",
         "clip": {
           "element": {
             "selector": "section.fe-form__section",
@@ -108,5 +144,8 @@
         }
       }
     }
-  ]
+  ],
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345"
 }

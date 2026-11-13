@@ -85,5 +85,8 @@
         "clip": "viewport"
       }
     }
-  ]
+  ],
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345"
 }

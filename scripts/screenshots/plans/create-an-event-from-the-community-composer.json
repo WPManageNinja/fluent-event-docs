@@ -32,7 +32,13 @@
       }
     },
     {
-      "front": "/portal/create-new-event",
+      "viewport": {
+        "width": 1440,
+        "height": 2000
+      }
+    },
+    {
+      "front": "/portal/events/create",
       "waitUntil": "load",
       "contentWidth": false,
       "hideThemeHeader": false,
@@ -47,5 +53,8 @@
         "clip": "viewport"
       }
     }
-  ]
+  ],
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345"
 }

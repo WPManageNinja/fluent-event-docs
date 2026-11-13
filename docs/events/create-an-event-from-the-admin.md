@@ -34,7 +34,7 @@ The **Create Event** form has sections from top to bottom. Complete the required
     - **Unlisted**: Only people with the direct link can open it.
     - **Private**: No public page.
     - **Draft**: Not ready yet. The event is saved but not shown.
-4. **Description** (optional): Add details, an agenda or notes. They appear on the event page.
+4. **Description** (optional): Add details, an agenda or notes with the editor. Type `/` to add headings, lists, quotes, images or dividers. The description appears on the event page.
 5. **Date and time**: Set the **Start** and **End** date and time, and the **Timezone**.
 6. **Venue type**: Choose **In person** or **Online**.
 7. **Registration**: Choose how guests join and whether to show the guest count.
@@ -49,9 +49,9 @@ For every option in detail, see [Event details and settings](/event-details-and-
 
 Under **Registration**, choose an **Entry type** to control how guests sign up.
 
-- **RSVP** (default): logged-in members say whether they are going.
-- **Open**: guests register with their name and email, with no login needed.
-- **None**: nobody registers. Anyone who can see the event sees all of it, including the meeting link.
+- **RSVP** (default): Logged-in members say whether they are going.
+- **Open**: Guests register with their name and email, with no login needed.
+- **None**: Nobody registers. Anyone who can see the event sees all of it, including the meeting link.
 
 Turn **Show how many guests are going** on or off to show or hide the guest count. To compare the entry types, see [RSVP and Open modes](/event-entry-modes-rsvp-and-open).
 

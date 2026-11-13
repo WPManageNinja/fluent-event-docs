@@ -53,11 +53,30 @@
       "click": ".fe-navbar__color-mode"
     },
     {
+      "wait": 500
+    },
+    {
+      "shot": {
+        "name": "2.-Color-Theme-Menu",
+        "clip": "app",
+        "arrows": [
+          {
+            "target": ".fe-navbar__color-mode",
+            "from": "left",
+            "len": 150
+          }
+        ]
+      }
+    },
+    {
+      "click": "[data-mode=\"dark\"]"
+    },
+    {
       "wait": 900
     },
     {
       "shot": {
-        "name": "2.-Dark-Mode",
+        "name": "3.-Dark-Mode",
         "clip": "app",
         "arrows": [
           {
@@ -70,6 +89,12 @@
     },
     {
       "click": ".fe-navbar__color-mode"
+    },
+    {
+      "wait": 400
+    },
+    {
+      "click": "[data-mode=\"light\"]"
     },
     {
       "wait": 400
