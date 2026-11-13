@@ -100,6 +100,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'User Guide', link: '/fluent-event-introduction' },
+      { text: 'In the Community', link: '/turn-on-events-in-your-community' },
       { text: 'Changelog', link: '/change-log' },
       { text: 'Website', link: 'https://fluentevent.com/' }
     ],
@@ -120,7 +121,6 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Create an event (admin)', link: '/create-an-event-from-the-admin' },
-          { text: 'Create an event (composer)', link: '/create-an-event-from-the-community-composer' },
           { text: 'Event details & settings', link: '/event-details-and-settings' },
           { text: 'RSVP and Open modes', link: '/event-entry-modes-rsvp-and-open' },
           { text: 'Events list & views', link: '/manage-events-list-views' },
@@ -156,11 +156,17 @@ export default defineConfig({
         text: 'In the Community',
         collapsed: true,
         items: [
+          { text: 'Turn on Events', link: '/turn-on-events-in-your-community' },
+          { text: 'Create an event (portal)', link: '/create-an-event-from-the-community-composer' },
           { text: 'Events in the feed', link: '/events-in-the-community-feed' },
           { text: 'Events page in the portal', link: '/events-page-in-the-community-portal' },
+          { text: 'Event page', link: '/event-page-in-the-community' },
           { text: 'RSVP to an event', link: '/rsvp-to-an-event' },
+          { text: 'Meeting link visibility', link: '/meeting-link-visibility' },
           { text: 'Add to your calendar', link: '/add-an-event-to-your-calendar' },
-          { text: 'Meeting link visibility', link: '/meeting-link-visibility' }
+          { text: 'Who can see an event', link: '/who-can-see-an-event' },
+          { text: 'Move or delete posts & spaces', link: '/move-or-delete-event-posts-and-spaces' },
+          { text: 'Public events pages', link: '/public-events-pages' }
         ]
       },
       {
