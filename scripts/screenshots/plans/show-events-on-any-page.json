@@ -1,0 +1,73 @@
+{
+  "doc": "docs/settings/show-events-on-any-page.md",
+  "outDir": "public/images/settings/show-events",
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "front": "/events-shortcode-demo/",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": false
+    },
+    {
+      "wait": 2500
+    },
+    {
+      "shot": {
+        "name": "1.-Events-List-Shortcode",
+        "clip": "viewport"
+      }
+    },
+    {
+      "front": "/wp-admin/post.php?post=779&action=edit",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 6000
+    },
+    {
+      "eval": "document.querySelectorAll('.components-modal__header button').forEach(b=>{if(/close/i.test(b.getAttribute('aria-label')||''))b.click()}); [...document.querySelectorAll('.components-modal__content button')].filter(b=>/^(Get started|Got it)$/i.test(b.textContent.trim())).forEach(b=>b.click())"
+    },
+    {
+      "wait": 500
+    },
+    {
+      "eval": "(()=>{const find=(bs)=>{for(const b of bs){if(b.name==='fluent-event/events')return b;const r=find(b.innerBlocks||[]);if(r)return r}};const be=wp.data.select('core/block-editor');const b=find(be.getBlocks());if(b)wp.data.dispatch('core/block-editor').selectBlock(b.clientId)})()"
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "shot": {
+        "name": "2.-Events-Block-Settings",
+        "clip": "viewport"
+      }
+    },
+    {
+      "front": "/single-event-shortcode-demo/",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": false
+    },
+    {
+      "wait": 2500
+    },
+    {
+      "shot": {
+        "name": "3.-Single-Event-Shortcode",
+        "clip": "viewport"
+      }
+    }
+  ]
+}

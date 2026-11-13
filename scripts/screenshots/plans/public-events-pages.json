@@ -1,6 +1,6 @@
 {
-  "doc": "docs/community/public-events-pages.md",
-  "outDir": "public/images/community/public-pages",
+  "doc": "docs/settings/public-events-pages.md",
+  "outDir": "public/images/settings/public-pages",
   "site": "http://crm.local",
   "user": "tajul",
   "pass": "12345",

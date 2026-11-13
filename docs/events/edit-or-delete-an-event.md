@@ -33,9 +33,23 @@ The form is the same as when you created the event. See [Event details and setti
 
 ![The Edit Event form with the current details filled in](/images/events/edit-delete/3.-Edit-Event-Form.webp)
 
-You can also click **Edit Event** on any event in the list, or choose **Edit event** from the **More actions** menu of an event in the community portal.
+You can also click **Edit Event** on any event in the list. To edit from the community portal instead, see the next section.
 
 If you change the start time, reminder emails are rescheduled for the new time. See [Event reminder emails](/event-reminder-emails). To hide an event while you rework it, set **Visibility** to **Draft**, then set it back to **Public** when you are ready.
+
+## Editing an Event from the Community Portal
+
+Administrators can edit an event without leaving the community portal.
+
+1. Open the **Events** page or the event page in the portal.
+2. Click **More actions** on the event.
+3. Choose **Edit event**.
+4. Change what you need.
+5. Click **Update Event**.
+
+The **Edit Event** page has the same fields as the create form, without the space and feed post sections. A note at the top says "To change the post text or its space, edit the post itself." Click **View post** to open the post.
+
+![The Edit Event page in the community portal with the notice about editing the post](/images/events/edit-delete/4.-Edit-Event-In-Portal.webp)
 
 ## Deleting an Event from the Danger Zone
 

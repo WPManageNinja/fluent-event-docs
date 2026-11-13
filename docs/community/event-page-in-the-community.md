@@ -29,7 +29,7 @@ An event with no registration (**None**) shows no RSVP button, only the details.
 
 ## Admin options
 
-Administrators see a menu (**More actions**) on the event with **Edit event**. It opens the event in the FluentEvent admin so you can change it. See [Edit or delete an event](/edit-or-delete-an-event).
+Administrators see a menu (**More actions**) on the event with **Edit event**. It opens the **Edit Event** page in the portal, so you can change the event without leaving the community. See [Edit or delete an event](/edit-or-delete-an-event).
 
 Members who are not administrators do not see this menu.
 

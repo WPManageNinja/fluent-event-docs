@@ -1,0 +1,118 @@
+{
+  "doc": "docs/settings/customize-the-event-page-template.md",
+  "outDir": "public/images/settings/customize-template",
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "front": "/wp-admin/site-editor.php?p=%2Ftemplate",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 6000
+    },
+    {
+      "eval": "document.querySelectorAll('.components-modal__header button').forEach(b=>{if(/close/i.test(b.getAttribute('aria-label')||''))b.click()}); [...document.querySelectorAll('.components-modal__content button')].filter(b=>/^(Get started|Got it)$/i.test(b.textContent.trim())).forEach(b=>b.click())"
+    },
+    {
+      "wait": 600
+    },
+    {
+      "fill": {
+        "selector": "input[type=search]",
+        "value": "Event"
+      }
+    },
+    {
+      "wait": 1800
+    },
+    {
+      "shot": {
+        "name": "1.-Event-Templates-List",
+        "clip": "viewport"
+      }
+    },
+    {
+      "front": "/wp-admin/site-editor.php?postId=twentytwentyfive%2F%2Fsingle-fe_event&postType=wp_template&canvas=edit",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 8000
+    },
+    {
+      "eval": "document.querySelectorAll('.components-modal__header button').forEach(b=>{if(/close/i.test(b.getAttribute('aria-label')||''))b.click()}); [...document.querySelectorAll('.components-modal__content button')].filter(b=>/^(Get started|Got it)$/i.test(b.textContent.trim())).forEach(b=>b.click())"
+    },
+    {
+      "wait": 800
+    },
+    {
+      "eval": "(()=>{const d=document.querySelector('iframe[name=\"editor-canvas\"]')?.contentDocument;if(d){const s=d.createElement('style');s.textContent='header.wp-block-template-part,.wp-block-template-part:first-child{display:none!important}';d.head.appendChild(s)}})()"
+    },
+    {
+      "eval": "(()=>{const b=[...document.querySelectorAll('button')].find(b=>/^(List View|Document Overview)$/i.test(b.getAttribute('aria-label')||''));if(b&&b.getAttribute('aria-pressed')!=='true')b.click()})()"
+    },
+    {
+      "wait": 800
+    },
+    {
+      "eval": "(()=>{const find=(bs)=>{for(const b of bs){if(b.name==='fluent-event/event-registration')return b;const r=find(b.innerBlocks||[]);if(r)return r}};const be=wp.data.select('core/block-editor');const b=find(be.getBlocks());if(b)wp.data.dispatch('core/block-editor').selectBlock(b.clientId)})()"
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "shot": {
+        "name": "2.-Single-Event-Template",
+        "clip": "viewport"
+      }
+    },
+    {
+      "front": "/wp-admin/site-editor.php?postId=twentytwentyfive%2F%2Farchive-fe_event&postType=wp_template&canvas=edit",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 8000
+    },
+    {
+      "eval": "document.querySelectorAll('.components-modal__header button').forEach(b=>{if(/close/i.test(b.getAttribute('aria-label')||''))b.click()}); [...document.querySelectorAll('.components-modal__content button')].filter(b=>/^(Get started|Got it)$/i.test(b.textContent.trim())).forEach(b=>b.click())"
+    },
+    {
+      "wait": 800
+    },
+    {
+      "eval": "(()=>{const d=document.querySelector('iframe[name=\"editor-canvas\"]')?.contentDocument;if(d){const s=d.createElement('style');s.textContent='header.wp-block-template-part,.wp-block-template-part:first-child{display:none!important}';d.head.appendChild(s)}})()"
+    },
+    {
+      "eval": "(()=>{const b=[...document.querySelectorAll('button')].find(b=>/^(List View|Document Overview)$/i.test(b.getAttribute('aria-label')||''));if(b&&b.getAttribute('aria-pressed')!=='true')b.click()})()"
+    },
+    {
+      "wait": 800
+    },
+    {
+      "eval": "(()=>{const find=(bs)=>{for(const b of bs){if(b.name==='fluent-event/events')return b;const r=find(b.innerBlocks||[]);if(r)return r}};const be=wp.data.select('core/block-editor');const b=find(be.getBlocks());if(b)wp.data.dispatch('core/block-editor').selectBlock(b.clientId)})()"
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "shot": {
+        "name": "3.-Events-Archive-Template",
+        "clip": "viewport"
+      }
+    }
+  ]
+}

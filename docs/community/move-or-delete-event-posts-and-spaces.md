@@ -7,6 +7,10 @@ description: Learn what happens to an event and its guests when you move its pos
 
 An event lives inside a FluentCommunity post, so changes to the post or its space also change the event. FluentEvent keeps guests safe in every case.
 
+## Edit the post or the event
+
+The post and the event are edited in two places. Change the post text or its space by editing the post itself. Change the event details from **More actions** › **Edit event**, which opens the **Edit Event** page. See [Edit or delete an event](/edit-or-delete-an-event).
+
 ## Move the post to another space
 
 When you move an event post to another discussion space, the event follows it. The event joins the new space's calendar and its guests stay registered.

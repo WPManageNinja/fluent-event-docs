@@ -22,7 +22,9 @@ In the admin, open the event and look at the **Public page** row on the **Overvi
 
 The page shows the event's cover image, its title, the date, time and place, its calendar and **About This Event**. A box beside it holds the date in the event's timezone and in your site's timezone, a **Starts in** note, the registration button, the guest count and the venue.
 
-![An event's public page showing the cover image, details, registration and venue](/images/community/public-pages/1.-Public-Event-Page.webp)
+![An event's public page showing the cover image, details, registration and venue](/images/settings/public-pages/1.-Public-Event-Page.webp)
+
+The page is built from a template you can change. See [Customize the event page template](/customize-the-event-page-template).
 
 An online event shows a **Join online** button instead of the venue, once the visitor has registered. Before that, a note asks them to register to see the meeting link. See [Meeting link visibility](/meeting-link-visibility).
 
@@ -37,21 +39,11 @@ The list follows your default view, and visitors can switch the view unless you 
 
 The list shows ten events at a time, with page links below. When nothing matches, it says "No events match your search."
 
-![The public events list in timeline view with calendar chips, search and the All, Upcoming and Past buttons](/images/community/public-pages/2.-Public-Events-List.webp)
+![The public events list in timeline view with calendar chips, search and the All, Upcoming and Past buttons](/images/settings/public-pages/2.-Public-Events-List.webp)
 
 ## Showing Events on Any Page
 
-Add the events list to any page or post with the shortcode `[fluent_events]`, or with the events block in the block editor. Show a single event with `[fluent_event]` or the **Fluent Event** block.
-
-The `[fluent_events]` shortcode accepts these options:
-
-- **calendar**: Show one calendar, for example `calendar="workshops"`.
-- **view**: Start in `cards`, `timeline` or `calendar`.
-- **filter**: Start with `upcoming`, `all` or `past`.
-- **view_switch**: Use `no` to hide the view icons.
-- **show_calendars**: Use `no` to hide the calendar chips.
-
-In the block editor, the same choices are in the block's **Events list** settings: **First calendar**, **Show calendar pills**, **View**, **View switcher** and **Events shown first**.
+You can put the events list on any page or post of your site, and show a single event anywhere. See [Show events on any page](/show-events-on-any-page).
 
 ## Choosing Which Events Appear
 

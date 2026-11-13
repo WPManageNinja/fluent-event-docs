@@ -25,7 +25,7 @@ The form opens with the note "A calendar holds your events. Give it a title and 
 
 The **Identity** section holds the name and color people see wherever the calendar appears.
 
-- **Title** (required): The name people see, for example `Personal`.
+- **Title** (required): The name people see, for example `Personal`. It can be up to 100 characters.
 - **Slug** (required): Identifies the calendar in links, for example `personal`. FluentEvent fills it in from the title as you type, using lowercase letters and hyphens. You can change it before you save.
 - **Color**: Pick one of the swatches (Vivid Blue, Purple, Deep Lilac, Cyan, Emerald Green, Lime Green, Amber or Red-Orange), or click **+** to choose a custom color. The color marks the calendar's events. A custom color must be a hex value such as `#0099ff`.
 

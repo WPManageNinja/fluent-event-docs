@@ -30,7 +30,11 @@ After activation, a **FluentEvent** item appears in the WordPress admin menu. It
 
 ![The FluentEvent item in the WordPress admin menu with its sub-menu expanded](/images/getting-started/install-activate/2.-FluentEvent-Menu.webp)
 
-Open **FluentEvent** › **Dashboard** to see the overview. Only site administrators see this menu. Then continue with [Create your first event](/create-your-first-event).
+Open **FluentEvent** › **Dashboard** to see the overview. Only site administrators see this menu.
+
+## Turning On FluentEvent in Your Community
+
+To show events to your members, also turn on FluentEvent in FluentCommunity. See [Enable FluentEvent in FluentCommunity](/enable-fluent-event-in-fluentcommunity). Then continue with [Create your first event](/create-your-first-event).
 
 ## What Happens When You Delete the Plugin
 

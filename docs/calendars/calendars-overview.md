@@ -37,7 +37,7 @@ Use a row's menu to take quick actions without opening the calendar.
 - **Status**: Click the status tag on a row and choose **Public**, **Private** or **Draft** to change it right away.
 - **Add Event**: Opens the event form with this calendar already selected.
 - **Edit**: Opens the calendar's edit form.
-- **View in Community**: Opens the space in a new tab. It appears only on calendars that belong to a space.
+- **View in Community**: Opens the space in a new tab. It appears only on calendars that belong to a space, and only when FluentEvent is [enabled in FluentCommunity](/enable-fluent-event-in-fluentcommunity).
 
 ## Understanding Calendar Statuses
 
@@ -53,7 +53,7 @@ Click a calendar's name, or anywhere on its row, to see its detail page.
 
 The page shows the calendar's title and status, its slug and who created it, four totals and two tabs. Calendars that belong to a space show the FluentCommunity logo next to the title. Click it to open the space in a new tab. The Community calendar shows the same logo with a note that it holds community-wide events.
 
-- **Total Events**, **Upcoming Events**, **Total Guests** and **Checked In Guests**: The four totals for this calendar.
+- **Total Events**, **Upcoming Events**, **Total Guests** and **Checked In Guests**: The four totals for this calendar. **Total Events** counts every event in the calendar, drafts included, so it matches the **Events** tab. **Upcoming Events** counts events that have not ended yet, so an event that is running now counts too.
 - **Events**: The calendar's events, with **All**, **Upcoming** and **Past** buttons and the same views as the main [Events list](/manage-events-list-views).
 - **Settings**: The **Danger Zone** for [deleting the calendar](/delete-a-calendar).
 
