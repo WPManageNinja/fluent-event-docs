@@ -1,6 +1,9 @@
 {
   "doc": "docs/calendars/calendars-overview.md",
   "outDir": "public/images/calendars/overview",
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345",
   "viewport": {
     "width": 1440,
     "height": 900
@@ -10,18 +13,35 @@
       "admin": "/calendars"
     },
     {
+      "wait": 1500
+    },
+    {
       "shot": {
         "name": "1.-Calendars-List",
-        "clip": "app",
-        "crop": "auto"
+        "clip": "app"
       }
     },
     {
-      "admin": "/calendars/1"
+      "click": ".fe-calendars__toolbar .fe-switch__option[aria-label=\"Cards\"]"
+    },
+    {
+      "wait": 900
     },
     {
       "shot": {
-        "name": "2.-Calendar-Detail",
+        "name": "2.-Calendars-Cards",
+        "clip": "app"
+      }
+    },
+    {
+      "admin": "/calendars/5"
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "shot": {
+        "name": "3.-Calendar-Detail",
         "clip": "app",
         "crop": "auto"
       }

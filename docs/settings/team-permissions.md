@@ -28,4 +28,4 @@ Members cannot create events.
 
 ## What Visitors Can Do
 
-People who are not logged in can register for an **Open** event with a name and email. If you turn on landing pages, they can also browse public calendars. See [General settings](/general-settings).
+People who are not logged in can open the public page of a **Public** or **Unlisted** event and register with a name and email, on **RSVP** and **Open** events. They can also browse the public events list. See [Public events pages](/public-events-pages).

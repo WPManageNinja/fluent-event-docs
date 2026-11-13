@@ -5,20 +5,23 @@ description: Show the Events link in the FluentCommunity menu and the Events tab
 
 # Turn On Events in Your Community
 
-FluentEvent adds an **Events** link to the FluentCommunity portal menu and an **Events** tab to every discussion space. Both start switched off, so turn them on once to let members browse events.
+After you [enable FluentEvent in FluentCommunity](/enable-fluent-event-in-fluentcommunity), FluentEvent adds an **Events** link to the portal menu and an **Events** tab to your discussion spaces. Check both once, so members can browse events.
 
-## Show Events in the portal menu
+## Showing Events in the Portal Menu
 
 The portal menu link opens the **All Events** page. On phones, the same link shows in the mobile bar just before **Profile**.
 
-1. Go to **FluentCommunity** › **Settings** › **Menu Settings**.
-2. Find **Events** in the main menu items and turn it on.
-3. Reorder it, rename it or change its icon if you like.
-4. Save your changes.
+1. In the portal, open **Portal Settings** and choose **Menu Settings**.
+2. Find **Events** under **Primary Menu Items**. It shows **Enabled** when it is on.
+3. If it shows **Disabled**, turn it on.
+4. Reorder it, rename it or change its icon if you like.
+5. Click **Save Settings**.
 
-Open the portal and check that **Events** now shows in the menu. If you rename the link, the page title stays **Events**.
+Open the portal and check that **Events** shows in the menu. If you rename the link, the page title stays **Events**.
 
-## Show the Events tab in a space
+![The Menu Settings page with Events listed as Enabled under Primary Menu Items](/images/community/turn-on/1.-Menu-Settings-Events.webp)
+
+## Showing the Events Tab in a Space
 
 Each discussion space can show its own **Events** tab, which lists only that space's events.
 
@@ -28,8 +31,9 @@ Each discussion space can show its own **Events** tab, which lists only that spa
 
 The tab only exists on discussion spaces. Other space types, such as course spaces, do not get it.
 
-## If Events does not show
+## If Events Does Not Show
 
+- Make sure FluentEvent is enabled in FluentCommunity. See [Enable FluentEvent in FluentCommunity](/enable-fluent-event-in-fluentcommunity).
 - Make sure FluentCommunity is active. FluentEvent needs it. See [Install and activate FluentEvent](/install-and-activate-fluent-event).
 - Check that you are looking at a discussion space. Events cannot be posted in other space types.
 - Reload the portal after saving, because the menu is loaded with the page.

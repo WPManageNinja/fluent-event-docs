@@ -29,4 +29,6 @@ Turn on **Cancellation email** to email guests when they cancel or when an admin
 
 Each email greets the guest and states the event name, date and time in the event's timezone. It ends with your email footer. Set the sender and footer in [Email sender settings](/email-sender-settings).
 
+Click the eye icon next to a switch to preview the email. See [Email notifications overview](/email-notifications-overview).
+
 Click **Save Settings** to keep your changes.

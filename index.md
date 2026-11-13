@@ -32,7 +32,7 @@ features:
     link: /manage-event-guests
   - icon: 🗓️
     title: Calendars
-    details: Group events in a calendar for each FluentCommunity space.
+    details: Group events in calendars, including the ones FluentEvent creates for your FluentCommunity spaces.
     link: /calendars-overview
   - icon: ✉️
     title: Emails and Reminders

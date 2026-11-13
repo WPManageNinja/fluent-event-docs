@@ -69,7 +69,7 @@ An event can run for several days. In the calendar view, a multi-day event appea
 
 **In person** is selected by default. Switch to **Online** for an event with a meeting link.
 
-- **In person**: Enter a **Venue name** (up to 255 characters, for example `Kingsway Hall`) and an **Address** (up to 500 characters, for example street, city and country).
+- **In person**: Enter a **Venue name** (up to 100 characters, for example `Kingsway Hall`) and an **Address** (up to 500 characters, for example street, city and country).
 
 ![The Venue type section set to In person with venue name and address fields](/images/events/event-details/5.-In-Person-Venue.webp)
 

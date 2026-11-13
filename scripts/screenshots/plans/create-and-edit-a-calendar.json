@@ -43,6 +43,29 @@
         "clip": "app",
         "crop": "auto"
       }
+    },
+    {
+      "admin": "/calendars/1/edit"
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "click": {
+        "text": "Change"
+      }
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "4.-Change-Slug-Dialog",
+        "clip": "app"
+      }
     }
-  ]
+  ],
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345"
 }
