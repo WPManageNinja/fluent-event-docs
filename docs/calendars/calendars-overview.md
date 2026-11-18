@@ -39,6 +39,14 @@ Use a row's menu to take quick actions without opening the calendar.
 - **Edit**: Opens the calendar's edit form.
 - **View in Community**: Opens the space in a new tab. It appears only on calendars that belong to a space, and only when FluentEvent is [enabled in FluentCommunity](/enable-fluent-event-in-fluentcommunity).
 
+Click the three dots on a row to open its menu. A calendar that belongs to a space shows both **Edit** and **View in Community**. Your own calendars show only **Edit**.
+
+![The menu on a space calendar row showing Edit and View in Community](/images/calendars/overview/3.-Calendar-Row-Menu.webp)
+
+Click the status tag, for example **Public**, to open the status menu. Choose **Public**, **Private** or **Draft** and the change is saved at once.
+
+![The status menu open on a calendar row with Public, Private and Draft](/images/calendars/overview/4.-Calendar-Status-Menu.webp)
+
 ## Understanding Calendar Statuses
 
 - **Public**: Anyone can find it. Events in a public calendar can have a public page. See [Event details and settings](/event-details-and-settings).
@@ -59,4 +67,4 @@ The page shows the calendar's title and status, its slug and who created it, fou
 
 Use **Edit** to change the calendar and **Add Event** to create an event in it. See [Create and edit a calendar](/create-and-edit-a-calendar).
 
-![A calendar detail page with event and guest totals and the list of its events](/images/calendars/overview/3.-Calendar-Detail.webp)
+![A calendar detail page with event and guest totals and the list of its events](/images/calendars/overview/5.-Calendar-Detail.webp)

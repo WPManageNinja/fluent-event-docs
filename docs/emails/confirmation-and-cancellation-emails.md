@@ -25,6 +25,10 @@ Turn on **Cancellation email** to email guests when they cancel or when an admin
 - **Subject**: "Your registration for" the event name "is cancelled".
 - **Not sent** for draft events.
 
+Click the eye icon next to **Cancellation email** to see it. The preview uses sample details.
+
+![The Email Preview window showing the cancellation email subject and message](/images/emails/confirm-cancel/2.-Cancellation-Email-Preview.webp)
+
 ## What Each Email Contains
 
 Each email greets the guest and states the event name, date and time in the event's timezone. It ends with your email footer. Set the sender and footer in [Email sender settings](/email-sender-settings).

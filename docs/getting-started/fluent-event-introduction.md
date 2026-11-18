@@ -39,6 +39,6 @@ The community side of FluentEvent starts switched off. You turn it on once in Fl
 
 ## Features Not Available in Version 1.0.0
 
-FluentEvent needs FluentCommunity to be installed and active, and WordPress 6.7 or newer. Events can be posted only in discussion spaces, not in course spaces. Paid tickets, recurring events and events created by members are not available yet.
+FluentEvent needs FluentCommunity 2.14.0 or newer to be installed and active, and WordPress 6.7 or newer. Events can be posted only in discussion spaces, not in course spaces. Paid tickets, recurring events and events created by members are not available yet.
 
 Ready to start? [Install and activate FluentEvent](/install-and-activate-fluent-event), [enable it in FluentCommunity](/enable-fluent-event-in-fluentcommunity), then [create your first event](/create-your-first-event).

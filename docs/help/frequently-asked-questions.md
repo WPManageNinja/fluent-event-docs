@@ -7,9 +7,9 @@ description: Quick answers about requirements, who can create events, registrati
 
 ::: faq
 == Does FluentEvent work without FluentCommunity?
-No. Events are FluentCommunity posts, so FluentCommunity must be installed and active, and your site needs WordPress 6.7 or newer. The free version of FluentCommunity is enough. See [Install and activate FluentEvent](/install-and-activate-fluent-event).
+No. Events are FluentCommunity posts, so FluentCommunity 2.14.0 or newer must be installed and active, and your site needs WordPress 6.7 or newer. The free version of FluentCommunity is enough. See [Install and activate FluentEvent](/install-and-activate-fluent-event).
 == Why do I not see Events in my community?
-FluentEvent adds nothing to the community until you enable it in FluentCommunity. Go to **Portal Settings** › **Features & Addons**, open the **FluentEvent** settings and tick **Enable FluentEvent**. Then check that **Events** is on in **Menu Settings**. See [Enable FluentEvent in FluentCommunity](/enable-fluent-event-in-fluentcommunity) and [Turn on Events in your community](/turn-on-events-in-your-community).
+FluentEvent adds nothing to the community until you enable it in FluentCommunity 2.14.0 or newer. Go to **Portal Settings** › **Features & Addons**, open the **FluentEvent** settings and tick **Enable FluentEvent**. Then check that **Events** is on in **Menu Settings**. See [Enable FluentEvent in FluentCommunity](/enable-fluent-event-in-fluentcommunity) and [Turn on Events in your community](/turn-on-events-in-your-community).
 == Can I change the address of the Events page?
 Yes. Change the **Events URL slug** in the FluentEvent settings in FluentCommunity. The default is `events`. Links people already have stop working after you change it. See [Enable FluentEvent in FluentCommunity](/enable-fluent-event-in-fluentcommunity).
 == Who can create events?

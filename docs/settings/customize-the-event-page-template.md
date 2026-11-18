@@ -50,4 +50,4 @@ If your theme has its own template for events, for example `single-fe_event.php`
 
 ## What Visitors Can Never See
 
-Whatever the template, the same visibility rules apply. Draft and private events, and events in a private or draft calendar, show a **Page not found** page. See [Public events pages](/public-events-pages).
+Whatever the template, the same visibility rules apply. Draft and private events, and events in a private or draft calendar, show your theme's "page not found" (404) page. See [Public events pages](/public-events-pages).

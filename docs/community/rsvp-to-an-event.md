@@ -39,3 +39,7 @@ On an Open event, the button reads **Register**. Click it, enter your **Name** a
 ## Events That Have Already Ended
 
 A finished event shows an **Ended** badge and no RSVP button. Events with no registration (**None**) have no button.
+
+On the **Past** tab of the Events page, each finished event shows **Ended** where the RSVP button used to be, next to the going count.
+
+![The Past tab of the Events page with an event card marked Ended instead of an RSVP button](/images/community/rsvp/4.-Ended-Event.webp)
