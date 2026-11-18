@@ -164,11 +164,14 @@
   color: var(--vp-c-text-3);
 }
 
-/* Tablet nav: at 768-959px the five top links plus the search button are wider than the screen
-   (the ⋯ menu was pushed 28px off the right edge). Tighten the link padding in that range only. */
-@media (min-width: 768px) and (max-width: 959px) {
-  .VPNavBarMenu .VPNavBarMenuLink { padding: 0 8px !important; }
+/* Narrow desktop and tablet nav: six top links plus search do not fit between 768px and 1099px
+   (the last links were pushed off the right edge). Show the search as an icon and tighten the links. */
+@media (min-width: 768px) and (max-width: 1099px) {
+  .VPNavBarSearch .DocSearch-Button-Placeholder, .VPNavBarSearch .DocSearch-Button-Keys { display: none; }
   .VPNavBarSearch .VPNavBarSearchButton, .VPNavBarSearch .DocSearch-Button { padding: 0 8px; }
-  .VPNavBarTitle .title { font-size: 15px; }
   .VPNavBarSearch { margin-left: 0; }
+  .VPNavBarMenu .VPNavBarMenuLink { padding: 0 8px !important; }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  .VPNavBarMenu .VPNavBarMenuLink { padding: 0 6px !important; font-size: 13px; }
 }
