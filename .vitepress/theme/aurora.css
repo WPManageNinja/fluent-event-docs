@@ -15,9 +15,9 @@
   --vp-local-nav-bg-color: color-mix(in srgb, var(--vp-c-bg) 70%, transparent);
 }
 .dark {
-  --nt-aurora-op: .3;
+  --nt-aurora-op: .14;
   --nt-aurora-4: 74 91 227;
-  --nt-grid-line: rgb(255 255 255 / .03);
+  --nt-grid-line: rgb(255 255 255 / .022);
 }
 
 .nt-aurora {

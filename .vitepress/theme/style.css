@@ -2,7 +2,7 @@
  * Fluent Event brand (https://fluentevent.com/brand), matched to the landing page:
  * indigo #2F3AB0 for links and the logo, accent #4A5BE3 for fills and highlights,
  * coral #FF6B4A in small amounts, ink #14162A for headings, buttons and dark surfaces,
- * mist #F6F7FB for tinted backgrounds. Dark mode uses the landing page's navy sections.
+ * mist #F6F7FB for tinted backgrounds. Dark mode matches the developer docs (near-black, faint indigo tint).
  * Screenshot annotation colour stays pink #FF4E6B (scripts/screenshots/lib/annotate.cjs).
  */
 
@@ -65,38 +65,41 @@
 }
 
 .dark {
+  /* Same dark palette as the FluentEvent developer docs: near-black with a faint indigo tint. */
   --vp-c-brand-1: #A9B4FF;
-  --vp-c-brand-2: #8D99F5;
+  --vp-c-brand-2: #C3C8FF;
   --vp-c-brand-3: var(--fe-accent);
-  --vp-c-brand-soft: rgba(110, 125, 240, 0.18);
+  --vp-c-brand-soft: rgba(169, 180, 255, 0.12);
 
-  --vp-c-bg: #0E1030;
-  --vp-c-bg-alt: #0B0D27;
-  --vp-c-bg-elv: #151845;
-  --vp-c-bg-soft: #151845;
-  --vp-c-text-1: #FFFFFF;
-  --vp-c-text-2: #DADEF2;
-  --vp-c-text-3: #9AA0C8;
-  --vp-c-divider: #252A5E;
-  --vp-c-border: #343B80;
-  --vp-c-gutter: #080A20;
-  --vp-c-default-soft: #1D2256;
+  --vp-c-bg: #0B0C15;
+  --vp-c-bg-alt: #08090F;
+  --vp-c-bg-elv: #14162A;
+  --vp-c-bg-soft: #12131F;
+  --vp-c-text-1: #ECEDF5;
+  --vp-c-text-2: #C4C7D9;
+  --vp-c-text-3: #8B8FA8;
+  --vp-c-divider: #1F2133;
+  --vp-c-border: #2A2D42;
+  --vp-c-gutter: #08090F;
+  --vp-c-default-soft: #1A1C2C;
+  --vp-code-bg: #1A1C2C;
+  --vp-code-block-bg: #0F1019;
 
   --vp-button-brand-text: var(--fe-ink);
   --vp-button-brand-bg: #FFFFFF;
   --vp-button-brand-hover-text: var(--fe-ink);
-  --vp-button-brand-hover-bg: #ECEEFF;
+  --vp-button-brand-hover-bg: #DADEF2;
   --vp-button-brand-active-text: var(--fe-ink);
-  --vp-button-brand-active-bg: #ECEEFF;
-  --vp-button-alt-border: #343B80;
-  --vp-button-alt-text: #FFFFFF;
-  --vp-button-alt-bg: transparent;
+  --vp-button-brand-active-bg: #FFFFFF;
+  --vp-button-alt-border: #2A2D42;
+  --vp-button-alt-text: #ECEDF5;
+  --vp-button-alt-bg: #12131F;
   --vp-button-alt-hover-border: #A9B4FF;
   --vp-button-alt-hover-text: #FFFFFF;
-  --vp-button-alt-hover-bg: transparent;
+  --vp-button-alt-hover-bg: #12131F;
 
-  --vp-home-hero-name-background: linear-gradient(120deg, #FFFFFF 10%, #A9B4FF);
-  --vp-home-hero-image-background-image: linear-gradient(120deg, rgba(74, 91, 227, 0.45), rgba(255, 107, 74, 0.2));
+  --vp-home-hero-name-background: linear-gradient(120deg, #ECEDF5 10%, #A9B4FF);
+  --vp-home-hero-image-background-image: linear-gradient(120deg, rgba(74, 91, 227, 0.35), rgba(255, 107, 74, 0.12));
 }
 
 /* Headings: tight tracking like the landing page */
@@ -110,7 +113,8 @@
 /* Home feature cards: white cards with a hairline border */
 .VPFeature { border: 1px solid var(--vp-c-divider); background-color: var(--vp-c-bg) !important; border-radius: 14px !important; }
 .VPFeature:hover { border-color: #B9BDD0; }
-.dark .VPFeature:hover { border-color: #343B80; }
+.dark .VPFeature { background-color: rgba(169, 180, 255, 0.025) !important; }
+.dark .VPFeature:hover { border-color: rgba(169, 180, 255, 0.35); }
 
 /* Coral marks the active sidebar item, like the date band in the logo */
 .VPSidebarItem.is-active > .item .indicator { background-color: var(--fe-coral); }
