@@ -43,8 +43,10 @@ export default defineConfig({
   },
   srcExclude: ['README.md', 'CLAUDE.md', '.claude/**/*.md', 'scripts/**/*.md'],
   head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
-    ['meta', { name: 'theme-color', content: '#12A9B5' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
+    ['meta', { name: 'theme-color', content: '#2F3AB0' }],
 
     // Open Graph / Twitter values that never vary per page. Every generated card is
     // 1200x630, so the dimensions live here; the image URL itself is per page and
