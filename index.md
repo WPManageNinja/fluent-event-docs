@@ -7,11 +7,14 @@ hero:
   tagline: Post events in your FluentCommunity spaces, collect RSVPs, manage guests and keep everyone informed with confirmations and reminders.
   actions:
     - theme: brand
-      text: Get Started
+      text: User Docs
       link: /fluent-event-introduction
     - theme: alt
       text: Create your first event
       link: /create-your-first-event
+    - theme: alt
+      text: Dev Docs
+      link: https://dev.fluentevent.com/
 
 features:
   - icon: 🚀

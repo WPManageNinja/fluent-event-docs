@@ -104,6 +104,7 @@ export default defineConfig({
       { text: 'User Guide', link: '/fluent-event-introduction' },
       { text: 'In the Community', link: '/turn-on-events-in-your-community' },
       { text: 'Changelog', link: '/change-log' },
+      { text: 'Dev Docs', link: 'https://dev.fluentevent.com/' },
       { text: 'Website', link: 'https://fluentevent.com/' }
     ],
 
