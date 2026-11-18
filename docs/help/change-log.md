@@ -19,6 +19,7 @@ description: Release notes for FluentEvent, newest first.
 • Confirmation, cancellation and reminder emails.
 • Add to Google Calendar and Apple Calendar.
 • Admin dashboard with card, timeline and calendar views.
+• Requires WordPress 6.7 and FluentCommunity 2.14.0 or newer.
 ```
 
 :::
