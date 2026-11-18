@@ -18,11 +18,15 @@ To change the address or choose the list page, go to **FluentEvent** › **Setti
 
 ## Opening an Event's Public Page
 
-In the admin, open the event and look at the **Public page** row on the **Overview** tab. It shows the link and a **Copy link** button. See [Edit or delete an event](/edit-or-delete-an-event).
+In the admin, go to **FluentEvent** › **Events**, click **Manage Event** and stay on the **Overview** tab. The **Public page** row at the bottom shows the event's link, with a **Copy link** button next to it. Click the link to open the page in a new tab, or copy it to share. See [Edit or delete an event](/edit-or-delete-an-event).
+
+![The event Overview tab with the Public page row highlighted showing the link and Copy link button](/images/settings/public-pages/1.-Public-Page-Row.webp)
+
+If the row has no link, it explains why. Only **Public** and **Unlisted** events in a **Public** calendar have a public page.
 
 The page shows the event's cover image, its title, the date, time and place, its calendar and **About This Event**. A box beside it holds the date in the event's timezone and in your site's timezone, a **Starts in** note, the registration button, the guest count and the venue.
 
-![An event's public page showing the cover image, details, registration and venue](/images/settings/public-pages/1.-Public-Event-Page.webp)
+![An event's public page showing the cover image, details, registration and venue](/images/settings/public-pages/2.-Public-Event-Page.webp)
 
 The page is built from a template you can change. See [Customize the event page template](/customize-the-event-page-template).
 
@@ -39,7 +43,7 @@ The list follows your default view, and visitors can switch the view unless you 
 
 The list shows ten events at a time, with page links below. When nothing matches, it says "No events match your search."
 
-![The public events list in timeline view with calendar chips, search and the All, Upcoming and Past buttons](/images/settings/public-pages/2.-Public-Events-List.webp)
+![The public events list in timeline view with calendar chips, search and the All, Upcoming and Past buttons](/images/settings/public-pages/3.-Public-Events-List.webp)
 
 ## Showing Events on Any Page
 
@@ -52,11 +56,19 @@ An event has a public page only when both of these are true:
 - The event's visibility is **Public** or **Unlisted**.
 - The event's calendar is **Public**.
 
-The list shows **Public** events. An **Unlisted** event is not in the list but opens from its direct link, and search engines are asked not to list it. Private and draft events, and events in a private or draft calendar, show a **Page not found** page, the same one as an event that does not exist.
+The list shows **Public** events. An **Unlisted** event is not in the list but opens from its direct link, and search engines are asked not to list it. Private and draft events, and events in a private or draft calendar, show your theme's "page not found" (404) page, the same one as an event that does not exist. Visitors cannot tell whether the event exists.
+
+![The page not found message of the site theme shown for a private event](/images/settings/public-pages/4.-Page-Not-Found.webp)
 
 ## Registering from a Public Page
 
-Visitors do not need an account. On an **RSVP** event they choose **Interested?** then **Going**. On an **Open** event they click **Register**. Both ask for a **Name** and **Email**.
+Visitors do not need an account. On an **RSVP** event they choose **Interested?**, and the menu offers **Going**. On an **Open** event they click **Register** instead.
+
+![The Interested? menu on an RSVP event showing the Going option](/images/settings/public-pages/5.-RSVP-Going-Menu.webp)
+
+Both ask for a **Name** and **Email**, then **Register**.
+
+![The Register window with Name and Email fields and a Register button](/images/settings/public-pages/6.-Register-Form.webp)
 
 After registering, the page shows **Going** or **Registered**, and a window with **Add to calendar** links opens. A visitor cannot change the answer afterward, because there is no account to change it from. Guests who register here show **WordPress Pages** as their source in the guest list. See [Manage event guests](/manage-event-guests).
 
