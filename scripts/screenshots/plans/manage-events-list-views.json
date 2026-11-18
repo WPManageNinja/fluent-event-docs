@@ -84,6 +84,27 @@
         "name": "5.-Filter-Panel",
         "clip": "viewport"
       }
+    },
+    {
+      "admin": "/events"
+    },
+    {
+      "wait": 2000
+    },
+    {
+      "eval": "document.querySelector('.fe-event-card')?.click()"
+    },
+    {
+      "wait": 1500
+    },
+    {
+      "shot": {
+        "name": "6.-Event-Side-Panel",
+        "clip": {
+          "element": ".el-drawer",
+          "pad": 0
+        }
+      }
     }
   ],
   "site": "http://crm.local",

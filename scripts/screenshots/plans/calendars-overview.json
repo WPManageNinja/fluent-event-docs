@@ -34,6 +34,42 @@
       }
     },
     {
+      "admin": "/calendars"
+    },
+    {
+      "wait": 2000
+    },
+    {
+      "eval": "[...document.querySelectorAll('.fe-calendars__row')].find(r=>r.textContent.includes('Showcase')).querySelector('.fe-action-popover__trigger-button').click()"
+    },
+    {
+      "wait": 700
+    },
+    {
+      "shot": {
+        "name": "3.-Calendar-Row-Menu",
+        "clip": "app"
+      }
+    },
+    {
+      "admin": "/calendars"
+    },
+    {
+      "wait": 2000
+    },
+    {
+      "eval": "[...document.querySelectorAll('.fe-calendars__row')].find(r=>r.textContent.includes('Community Meetups')).querySelector('.fe-calendars__status-tag').click()"
+    },
+    {
+      "wait": 700
+    },
+    {
+      "shot": {
+        "name": "4.-Calendar-Status-Menu",
+        "clip": "app"
+      }
+    },
+    {
       "admin": "/calendars/5"
     },
     {
@@ -41,7 +77,7 @@
     },
     {
       "shot": {
-        "name": "3.-Calendar-Detail",
+        "name": "5.-Calendar-Detail",
         "clip": "app",
         "crop": "auto"
       }

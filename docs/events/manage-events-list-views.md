@@ -66,3 +66,7 @@ Active filters appear as chips above the list. If nothing matches, the list show
 ## Opening an Event from the List
 
 Click **Manage Event** to open the event's page with its guests, or **Edit Event** to change its details. See [Edit or delete an event](/edit-or-delete-an-event).
+
+Click anywhere else on a card, or on an event in the calendar view, to open a side panel called **Event Details**. It shows the cover image, the status, the calendar, the date and time in both timezones, the venue or meeting link and the description. Click **View Full Details** at the bottom to open the full event page.
+
+![The Event Details side panel with the cover image, calendar, date, meeting link and the View Full Details button](/images/events/list-views/6.-Event-Side-Panel.webp)

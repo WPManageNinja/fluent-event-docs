@@ -3,7 +3,7 @@
   "outDir": "public/images/community/rsvp",
   "viewport": {
     "width": 1440,
-    "height": 900
+    "height": 1250
   },
   "steps": [
     {
@@ -76,6 +76,31 @@
         "name": "3.-Going-Or-Not-Going",
         "clip": "viewport"
       }
+    },
+    {
+      "front": "/portal/events",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 3500
+    },
+    {
+      "eval": "[...document.querySelectorAll('*')].find(e=>e.children.length===0&&e.textContent.trim()==='Past')?.click()"
+    },
+    {
+      "wait": 2500
+    },
+    {
+      "shot": {
+        "name": "4.-Ended-Event",
+        "clip": "viewport"
+      }
     }
-  ]
+  ],
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345"
 }
