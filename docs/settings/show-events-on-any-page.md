@@ -9,8 +9,8 @@ Besides the public event pages, FluentEvent can show events inside your own page
 
 ## Choosing Shortcode or Block
 
-- **Events list**: Use `[fluent_events]` or the **Fluent Events** block. It shows your public events with search, filters and the card, timeline and calendar views.
-- **Single event**: Use `[fluent_event]` or the **Fluent Event** block. It shows one event with its details and registration.
+- **Events list**: Use `[fluent_events]` or the **FluentEvent List** block. It shows your public events with search, filters and the card, timeline and calendar views.
+- **Single event**: Use `[fluent_event]` or the **FluentEvent Single Event** block. It shows one event with its details and registration.
 
 Only events that have a public page appear. See [Public events pages](/public-events-pages).
 
@@ -32,7 +32,7 @@ To make a ready-made page, choose or create an **All Events Page** in **FluentEv
 
 ## Adding the Events List with the Block
 
-In the block editor, add the **Fluent Events** block to the page. It is described as "A list of your public events, as cards, a timeline or a calendar." Select the block, and its **Events list** settings in the sidebar match the shortcode options:
+In the block editor, add the **FluentEvent List** block to the page. It is described as "A list of your public events, as cards, a timeline or a calendar." Select the block, and its **Events list** settings in the sidebar match the shortcode options:
 
 - **First calendar**: The calendar shown first. Visitors can switch with the calendar pills.
 - **Show calendar pills**: Turn off to keep the list on one calendar.
@@ -42,11 +42,11 @@ In the block editor, add the **Fluent Events** block to the page. It is describe
 
 In the editor the block shows sample events with the note "Sample events: the page shows your public events here." Visitors see your real events.
 
-![The block editor with the Fluent Events block selected and its Events list settings in the sidebar](/images/settings/show-events/2.-Events-Block-Settings.webp)
+![The block editor with the FluentEvent List block selected and its Events list settings in the sidebar](/images/settings/show-events/2.-Events-Block-Settings.webp)
 
 ## Showing One Event
 
-Add `[fluent_event event="event-slug"]`, using the event's slug, which is the last part of its public address. Or add the **Fluent Event** block and choose the event under **Select an event**.
+Add `[fluent_event event="event-slug"]`, using the event's slug, which is the last part of its public address. Or add the **FluentEvent Single Event** block and choose the event under **Select an event**.
 
 The event shows its details and the registration button, so visitors can register without leaving your page.
 
