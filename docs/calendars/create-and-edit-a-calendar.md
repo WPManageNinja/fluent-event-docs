@@ -29,6 +29,10 @@ The **Identity** section holds the name and color people see wherever the calend
 - **Slug** (required): Identifies the calendar in links, for example `personal`. FluentEvent fills it in from the title as you type, using lowercase letters and hyphens. You can change it before you save.
 - **Color**: Pick one of the swatches (Vivid Blue, Purple, Deep Lilac, Cyan, Emerald Green, Lime Green, Amber or Red-Orange), or click **+** to choose a custom color. The color marks the calendar's events. A custom color must be a hex value such as `#0099ff`.
 
+Click **+** to open the color picker. Drag in the square or on the color bar, or type a hex value such as `#0099ff` in the box, then click **Apply**.
+
+![The custom color picker open from the plus button, with a hex value field and an Apply button](/images/calendars/create-edit/3.-Custom-Color-Picker.webp)
+
 ### Choosing Calendar Visibility
 
 The **Visibility** section decides who can find the calendar. **Public** is selected by default.
@@ -49,7 +53,7 @@ Click **Reset Calendar** to clear the form, then click **Create Calendar** to sa
 
 The edit form says "Update the calendar details. Events already in it are not affected." Changing a calendar's title, color or visibility does not move or change its events.
 
-![The Edit Calendar form for the Events and Meetups calendar](/images/calendars/create-edit/3.-Edit-Calendar-Form.webp)
+![The Edit Calendar form for the Events and Meetups calendar](/images/calendars/create-edit/4.-Edit-Calendar-Form.webp)
 
 You can also change a calendar's visibility from the list. Click the status tag on its row and choose a new status. See [Calendars overview](/calendars-overview).
 
@@ -61,7 +65,7 @@ The slug is locked when you edit, because links to the calendar use it.
 2. Read the message and click **Change slug** to confirm.
 3. Enter the new slug and click **Update Calendar**.
 
-![The Change slug confirmation asking whether to change the slug of the calendar](/images/calendars/create-edit/4.-Change-Slug-Dialog.webp)
+![The Change slug confirmation asking whether to change the slug of the calendar](/images/calendars/create-edit/5.-Change-Slug-Dialog.webp)
 
 ::: warning
 Changing the slug later breaks existing links to the calendar.

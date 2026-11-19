@@ -23,11 +23,19 @@ The **Schedule** list holds up to 5 reminders. Each has a number and a unit:
 
 The default is one reminder, **24 Hours before**. Click **Add reminder** to add another, for example 1 day and 15 minutes. A reminder can be at most 30 days before the event. Click **Save Settings** when you finish.
 
+Each extra reminder adds a row with a number, a unit and an **x** to remove it. The **Schedule** header counts them, for example **2 of 5**. The example below has one reminder 24 hours before and one 15 minutes before. Nothing is saved until you click **Save Settings**.
+
+![The Reminder schedule with two reminders, 24 hours before and 15 minutes before](/images/emails/reminders/2.-Two-Reminders.webp)
+
 ## Which Guests Receive a Reminder
 
 Every guest of the event except those whose status is **Not Going** or **Cancelled**. Reminders are sent only for events whose visibility is **Public**, **Unlisted** or **Private**, so a **Draft** event sends none.
 
 The subject is "Reminder:" followed by the event name and "is coming up". The email states the start date, time and timezone. Click the eye icon next to **Reminder emails** to preview it. See [Email notifications overview](/email-notifications-overview).
+
+The preview below shows the reminder with sample details. It greets the guest, states the event name, date, time and timezone, adds the meeting link for an online event and ends with "See you there!".
+
+![The Email Preview window showing the subject and body of the reminder email](/images/emails/reminders/3.-Reminder-Email-Preview.webp)
 
 ## How Reminders Respond to Event Changes
 

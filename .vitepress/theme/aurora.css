@@ -1,21 +1,23 @@
-/* Aurora page background (soft, slow-moving colour glows behind the whole site, like docs.fluentcommunity.co).
+/* Aurora page background: soft, slow indigo glows over a faint 80px grid, like the fluentevent.com hero.
    Four radial-gradient blobs live in a fixed layer (Layout.vue, #layout-top). Nav and sidebar turn into frosted
    glass so the colour shows through them. Off in print and for reduced motion (static glow stays). */
 
 :root {
-  --nt-aurora-1: 18 169 181;     /* brand teal */
-  --nt-aurora-2: 56 189 248;    /* sky */
-  --nt-aurora-3: 45 212 191;   /* mint */
-  --nt-aurora-4: 99 102 241;   /* indigo */
-  --nt-aurora-op: .42;
+  --nt-aurora-1: 74 91 227;     /* accent #4A5BE3 */
+  --nt-aurora-2: 169 180 255;   /* light indigo #A9B4FF */
+  --nt-aurora-3: 47 58 176;     /* indigo #2F3AB0 */
+  --nt-aurora-4: 255 107 74;    /* coral #FF6B4A, kept faint */
+  --nt-aurora-op: .22;
+  --nt-grid-line: rgb(20 22 42 / .035);
 
   --vp-nav-bg-color: color-mix(in srgb, var(--vp-c-bg) 38%, transparent);
   --vp-sidebar-bg-color: color-mix(in srgb, var(--vp-c-bg-alt) 55%, transparent);
   --vp-local-nav-bg-color: color-mix(in srgb, var(--vp-c-bg) 70%, transparent);
 }
 .dark {
-  --nt-aurora-op: .26;
-  --nt-aurora-3: 20 184 166;
+  --nt-aurora-op: .14;
+  --nt-aurora-4: 74 91 227;
+  --nt-grid-line: rgb(255 255 255 / .022);
 }
 
 .nt-aurora {
@@ -27,6 +29,16 @@
   /* The glow fades out toward the bottom so long pages stay calm and readable. */
   -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 35%, transparent 92%);
           mask-image: linear-gradient(to bottom, #000 0, #000 35%, transparent 92%);
+}
+/* Faint grid, as on the landing page */
+.nt-aurora::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, var(--nt-grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--nt-grid-line) 1px, transparent 1px);
+  background-size: 80px 80px;
 }
 .nt-aurora__blob {
   position: absolute;
@@ -50,7 +62,7 @@
   animation: nt-drift-c 46s ease-in-out infinite alternate;
 }
 .nt-aurora__blob.b4 {
-  width: 48vw; height: 48vw; left: -10vw; top: 8vw;
+  width: 40vw; height: 40vw; right: -8vw; top: 6vw; opacity: calc(var(--nt-aurora-op) * .45);
   background: radial-gradient(circle, rgb(var(--nt-aurora-4) / .46) 0%, rgb(var(--nt-aurora-4) / .22) 40%, transparent 70%);
   animation: nt-drift-b 38s ease-in-out infinite alternate-reverse;
 }

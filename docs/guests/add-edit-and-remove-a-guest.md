@@ -44,6 +44,10 @@ Tick the box to send the email when you save. If you leave it unticked, the stat
 
 ![The Edit Guest dialog with the guest's name, email and status](/images/guests/add-edit-remove/4.-Edit-Guest-Dialog.webp)
 
+For example, change the **Status** to **Cancelled**. The **Send cancellation email** box appears under it. It stays unticked, so no email goes out unless you tick it.
+
+![The Edit Guest dialog with the status set to Cancelled and the Send cancellation email checkbox showing](/images/guests/add-edit-remove/5.-Edit-Guest-Cancel-Email.webp)
+
 ## Viewing Guest Details
 
 Choose **View** in the **More** menu to open **Guest Details**. It shows the guest's name, email and picture, and these facts:
@@ -55,7 +59,7 @@ Choose **View** in the **More** menu to open **Guest Details**. It shows the gue
 - **Last updated**: When the record last changed.
 - **WP User**: **Yes** if the guest is linked to a WordPress user, otherwise **No**.
 
-![The Guest Details dialog showing status, source, responded time and WP user](/images/guests/add-edit-remove/5.-Guest-Details.webp)
+![The Guest Details dialog showing status, source, responded time and WP user](/images/guests/add-edit-remove/6.-Guest-Details.webp)
 
 ## Removing a Guest from an Event
 
@@ -66,6 +70,6 @@ Choose **View** in the **More** menu to open **Guest Details**. It shows the gue
 
 The cancellation email option appears only for guests who are **Going** or **Checked In**, and only when the cancellation email is turned on. Removing a guest cannot be undone.
 
-![The Delete Guest dialog with the Send cancellation email option](/images/guests/add-edit-remove/6.-Delete-Guest-Dialog.webp)
+![The Delete Guest dialog with the Send cancellation email option](/images/guests/add-edit-remove/7.-Delete-Guest-Dialog.webp)
 
 If you want to keep a record of the guest, set their status to **Cancelled** instead of deleting. See [Guest statuses and check-in](/guest-statuses-and-check-in).

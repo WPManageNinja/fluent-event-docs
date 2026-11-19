@@ -17,6 +17,10 @@ Click an event in the feed or on the **Events** page to open its **event page**.
 - The going count, when the event shows it.
 - **Comments**: A comment box under the event, where members can discuss it. It is hidden when comments are turned off on the post.
 
+Here is an upcoming online event as an administrator sees it. The cover image and title sit on top, with the date, time and place and who posted it. **About This Event** and the **Comments** box follow. The details box on the right shows the **Starts in** note, the **Interested?** menu, the going count and the **Join online** button.
+
+![A community event page with the cover image, details, About This Event, Comments and the registration box](/images/community/event-page/1.-Event-Page.webp)
+
 ## The details box
 
 The details box on the side holds the actions.
@@ -32,6 +36,10 @@ An event with no registration (**None**) shows no RSVP button, only the details.
 Administrators see a menu (**More actions**) on the event with **Edit event**. It opens the **Edit Event** page in the portal, so you can change the event without leaving the community. See [Edit or delete an event](/edit-or-delete-an-event).
 
 Members who are not administrators do not see this menu.
+
+Click the three dots at the top right of the event to open the menu. It has one item, **Edit event**.
+
+![The More actions menu on a community event page showing Edit event](/images/community/event-page/2.-More-Actions-Menu.webp)
 
 ## If the page says it was not found
 

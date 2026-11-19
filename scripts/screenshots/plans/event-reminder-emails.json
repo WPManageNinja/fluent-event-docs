@@ -24,6 +24,42 @@
           }
         ]
       }
+    },
+    {
+      "eval": "[...document.querySelectorAll('button')].find(b=>/Add reminder/.test(b.textContent))?.click()"
+    },
+    {
+      "wait": 700
+    },
+    {
+      "shot": {
+        "name": "2.-Two-Reminders",
+        "clip": "app"
+      }
+    },
+    {
+      "admin": "/settings/email-notifications"
+    },
+    {
+      "wait": 2000
+    },
+    {
+      "click": "button[aria-label=\"Preview the reminder email\"]"
+    },
+    {
+      "wait": 1800
+    },
+    {
+      "shot": {
+        "name": "3.-Reminder-Email-Preview",
+        "clip": {
+          "element": ".el-dialog",
+          "pad": 32
+        }
+      }
     }
-  ]
+  ],
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345"
 }

@@ -112,8 +112,14 @@ Then `pkill -f "vitepress preview"; npm run docs:build && npm run docs:preview` 
 
 ## Brand
 
-Teal `#12A9B5` (`--vp-c-brand-*` in `style.css`), same structure as the FluentCommunity docs. Logos from the designer pack in
-`public/images/brand/` (light + dark lockups, icon); `public/logo.svg` + `public/favicon.png` are the pack icon. Annotation colour in screenshots: pink `#FF4E6B`.
+Source of truth: https://fluentevent.com/brand (and the landing page look). Write the name as **FluentEvent**
+(one word, matches the plugin menu and the brand page). Indigo `#2F3AB0` (logo, links), accent
+`#4A5BE3` (fills), coral `#FF6B4A` (small amounts only), ink `#14162A` (headings, buttons, dark surfaces), mist `#F6F7FB`.
+Tokens live at the top of `.vitepress/theme/style.css` (`--fe-*` mapped to `--vp-c-*`); dark mode matches the
+developer docs (`fluent-event/dev-docs-repo`, `custom.css`): near-black `#0B0C15`. Social-card palette: `PALETTE` in `scripts/generate-featured-images.mjs`. Logos in
+`public/images/brand/` are the official files from the brand zip, unedited (light = `logo.svg`, dark = `logo-on-dark.svg`,
+icon); `public/logo.svg`, `favicon.svg/png`, `apple-touch-icon.png` are the icon. Never recolour or redraw the logo.
+Annotation colour in screenshots: pink `#FF4E6B`.
 
 ## Skills (`.claude/skills/`)
 

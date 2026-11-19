@@ -38,9 +38,9 @@ The default layout puts the cover on top, the title, meta, calendar and descript
 
 ![The Single Event template in the Site Editor with the List View open and the Event Registration block selected](/images/settings/customize-template/2.-Single-Event-Template.webp)
 
-The **Events Archive** template holds the **Fluent Events** block. Select it to change its settings, the same as on any page. See [Show events on any page](/show-events-on-any-page).
+The **Events Archive** template holds the **FluentEvent List** block. Select it to change its settings, the same as on any page. See [Show events on any page](/show-events-on-any-page).
 
-![The Events Archive template in the Site Editor with the Fluent Events block selected and its settings](/images/settings/customize-template/3.-Events-Archive-Template.webp)
+![The Events Archive template in the Site Editor with the FluentEvent List block selected and its settings](/images/settings/customize-template/3.-Events-Archive-Template.webp)
 
 ## Using FluentEvent on a Classic Theme
 
@@ -50,4 +50,4 @@ If your theme has its own template for events, for example `single-fe_event.php`
 
 ## What Visitors Can Never See
 
-Whatever the template, the same visibility rules apply. Draft and private events, and events in a private or draft calendar, show a **Page not found** page. See [Public events pages](/public-events-pages).
+Whatever the template, the same visibility rules apply. Draft and private events, and events in a private or draft calendar, show your theme's "page not found" (404) page. See [Public events pages](/public-events-pages).

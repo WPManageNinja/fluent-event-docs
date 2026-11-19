@@ -11,7 +11,7 @@ description: Turn on FluentEvent in FluentCommunity so members can see events, t
 
 - Install and activate both plugins. See [Install and activate FluentEvent](/install-and-activate-fluent-event).
 - Log in as a site administrator.
-- Use a version of FluentCommunity that shows a **FluentEvent** card in its features list. If you do not see the card, update FluentCommunity.
+- Use FluentCommunity 2.14.0 or newer. That version adds a **FluentEvent** card to its features list. If you do not see the card, update FluentCommunity.
 
 ## Opening the FluentEvent Settings
 
@@ -43,7 +43,9 @@ After you enable FluentEvent, the panel shows **Next steps**:
 
 1. Turn on **Events** in **Menu Settings**, so the link shows in the portal menu.
 2. Turn on **Events** under **Space Settings** › **Menu**, so each space shows its own **Events** tab.
-3. Use **Create new event** in the feed or the space menu to post your first event.
+3. Use **Create Event** in the feed or the space menu to post your first event.
+
+FluentCommunity words the third step as "Use “Create Event” in the feed or space ••• menu". In the portal, the menu item and the button on the Events page both read **Create new event**.
 
 See [Turn on Events in your community](/turn-on-events-in-your-community) for the first two steps and [Create an event from the community portal](/create-an-event-from-the-community-composer) for the third.
 

@@ -35,11 +35,29 @@
       }
     },
     {
+      "eval": "(document.querySelector('.fe-form__swatch--picker .el-color-picker__trigger')||document.querySelector('.el-color-picker__trigger'))?.click()"
+    },
+    {
+      "wait": 1000
+    },
+    {
+      "shot": {
+        "name": "3.-Custom-Color-Picker",
+        "clip": "app"
+      }
+    },
+    {
+      "admin": "/calendars/1/edit"
+    },
+    {
+      "wait": 1500
+    },
+    {
       "admin": "/calendars/1/edit"
     },
     {
       "shot": {
-        "name": "3.-Edit-Calendar-Form",
+        "name": "4.-Edit-Calendar-Form",
         "clip": "app",
         "crop": "auto"
       }
@@ -60,7 +78,7 @@
     },
     {
       "shot": {
-        "name": "4.-Change-Slug-Dialog",
+        "name": "5.-Change-Slug-Dialog",
         "clip": "app"
       }
     }

@@ -25,11 +25,17 @@ Open the portal and check that **Events** shows in the menu. If you rename the l
 
 Each discussion space can show its own **Events** tab, which lists only that space's events.
 
-1. Open the space in the portal and go to its settings.
-2. Open the space menu and turn **Events** on.
-3. Save your changes.
+1. Open the space in the portal and go to its settings. The settings page has the tabs **General**, **Paywalls**, **Menu** and **Pages**.
+2. Open the **Menu** tab.
+3. Under **Primary Menu**, find **Events**. It shows **Disabled** until you turn it on.
+4. Click the eye icon on the **Events** row so it shows **Enabled**.
+5. Save your changes.
+
+**Primary Menu** is the tab bar at the top of the space. The **Preview** at the top of the page shows how members will see it. Each space has its own setting, so repeat the steps for every space that should show an **Events** tab.
 
 The tab only exists on discussion spaces. Other space types, such as course spaces, do not get it.
+
+![The space Menu settings with the Events row under Primary Menu shown as Disabled](/images/community/turn-on/2.-Space-Menu-Settings.webp)
 
 ## If Events Does Not Show
 

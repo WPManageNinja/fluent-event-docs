@@ -106,6 +106,27 @@
       }
     },
     {
+      "eval": "document.querySelector('.el-dialog .el-select')?.click()"
+    },
+    {
+      "wait": 700
+    },
+    {
+      "eval": "[...document.querySelectorAll('.el-select-dropdown__item')].find(e=>e.textContent.trim()==='Cancelled')?.click()"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "5.-Edit-Guest-Cancel-Email",
+        "clip": {
+          "element": ".el-dialog",
+          "pad": 32
+        }
+      }
+    },
+    {
       "eval": "document.querySelectorAll('.el-dialog__headerbtn').forEach(b=>b.click())"
     },
     {
@@ -140,7 +161,7 @@
     },
     {
       "shot": {
-        "name": "5.-Guest-Details",
+        "name": "6.-Guest-Details",
         "clip": {
           "element": ".el-dialog",
           "pad": 32
@@ -182,7 +203,7 @@
     },
     {
       "shot": {
-        "name": "6.-Delete-Guest-Dialog",
+        "name": "7.-Delete-Guest-Dialog",
         "clip": {
           "element": ".el-dialog",
           "pad": 32

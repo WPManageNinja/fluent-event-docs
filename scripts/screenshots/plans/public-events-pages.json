@@ -10,6 +10,24 @@
   },
   "steps": [
     {
+      "admin": "/events/1"
+    },
+    {
+      "wait": 2000
+    },
+    {
+      "shot": {
+        "name": "1.-Public-Page-Row",
+        "clip": {
+          "element": ".fe-event-overview",
+          "pad": 20
+        },
+        "highlights": [
+          ".fe-event-overview__public"
+        ]
+      }
+    },
+    {
       "front": "/event/fluentcommunity-monthly-meetup-dhaka/",
       "waitUntil": "load",
       "contentWidth": false,
@@ -21,7 +39,7 @@
     },
     {
       "shot": {
-        "name": "1.-Public-Event-Page",
+        "name": "2.-Public-Event-Page",
         "clip": "viewport"
       }
     },
@@ -37,7 +55,57 @@
     },
     {
       "shot": {
-        "name": "2.-Public-Events-List",
+        "name": "3.-Public-Events-List",
+        "clip": "viewport"
+      }
+    },
+    {
+      "front": "/event/fluentcommunity-monthly-meetup-chattogram/",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": false
+    },
+    {
+      "wait": 2500
+    },
+    {
+      "shot": {
+        "name": "4.-Page-Not-Found",
+        "clip": "viewport"
+      }
+    },
+    {
+      "front": "/event/fluentcrm-automation-workshop-build-your-first-funnel/",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": false
+    },
+    {
+      "wait": 3000
+    },
+    {
+      "eval": "document.querySelector('.fe-rsvp__trigger')?.click()"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "shot": {
+        "name": "5.-RSVP-Going-Menu",
+        "clip": "viewport"
+      }
+    },
+    {
+      "eval": "document.querySelector('.fe-rsvp__option')?.click()"
+    },
+    {
+      "wait": 1200
+    },
+    {
+      "shot": {
+        "name": "6.-Register-Form",
         "clip": "viewport"
       }
     }

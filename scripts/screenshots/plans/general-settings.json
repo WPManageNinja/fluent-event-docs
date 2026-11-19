@@ -1,11 +1,20 @@
 {
   "doc": "docs/settings/general-settings.md",
   "outDir": "public/images/settings/general",
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345",
   "viewport": {
     "width": 1440,
-    "height": 900
+    "height": 1400
   },
   "steps": [
+    {
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      }
+    },
     {
       "admin": "/settings/general"
     },
@@ -15,9 +24,78 @@
         "clip": "app",
         "crop": "auto"
       }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1400
+      }
+    },
+    {
+      "admin": "/settings/general"
+    },
+    {
+      "wait": 2500
+    },
+    {
+      "click": ".fe-page-picker__select"
+    },
+    {
+      "wait": 1200
+    },
+    {
+      "eval": "[...document.querySelectorAll('.el-select-dropdown__item')].find(e=>e.textContent.trim()==='Events Shortcode Demo')?.click()"
+    },
+    {
+      "wait": 1200
+    },
+    {
+      "shot": {
+        "name": "3.-Public-Pages-Example",
+        "clip": {
+          "element": {
+            "selector": "section.fe-settings-page",
+            "hasText": "Public Pages"
+          },
+          "pad": 24
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "admin": "/settings/general"
+    },
+    {
+      "wait": 2500
+    },
+    {
+      "click": ".fe-page-picker__add"
+    },
+    {
+      "wait": 900
+    },
+    {
+      "fill": {
+        "selector": ".el-dialog input",
+        "value": "Events"
+      }
+    },
+    {
+      "wait": 500
+    },
+    {
+      "shot": {
+        "name": "2.-Add-Page-Dialog",
+        "clip": {
+          "element": ".el-dialog",
+          "pad": 32
+        }
+      }
     }
-  ],
-  "site": "http://crm.local",
-  "user": "tajul",
-  "pass": "12345"
+  ]
 }

@@ -1,0 +1,47 @@
+{
+  "doc": "docs/community/event-page-in-the-community.md",
+  "outDir": "public/images/community/event-page",
+  "site": "http://crm.local",
+  "user": "tajul",
+  "pass": "12345",
+  "viewport": {
+    "width": 1440,
+    "height": 1250
+  },
+  "steps": [
+    {
+      "front": "/portal/events",
+      "waitUntil": "load",
+      "contentWidth": false,
+      "hideThemeHeader": false,
+      "login": true
+    },
+    {
+      "wait": 3500
+    },
+    {
+      "eval": "[...document.querySelectorAll('a')].find(a=>/Advanced Automation Funnels/.test(a.textContent))?.click()"
+    },
+    {
+      "wait": 4000
+    },
+    {
+      "shot": {
+        "name": "1.-Event-Page",
+        "clip": "viewport"
+      }
+    },
+    {
+      "eval": "[...document.querySelectorAll('button')].find(b=>/More actions/i.test(b.getAttribute('aria-label')||''))?.click()"
+    },
+    {
+      "wait": 700
+    },
+    {
+      "shot": {
+        "name": "2.-More-Actions-Menu",
+        "clip": "viewport"
+      }
+    }
+  ]
+}
